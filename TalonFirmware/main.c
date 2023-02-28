@@ -55,7 +55,7 @@ void max17048_init() {
 
 
     // Reset the MAX17048
-    uint8_t reset_data[] = { 0x54, 0x00 };
+    uint8_t reset_data[] = { 0xFE,0x54, 0x00 };
     i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, reset_data, 2, false);
 
     // Configure the MAX17048 to continuously sample the battery
