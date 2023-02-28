@@ -2,6 +2,7 @@
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
 
+
 #define MAX17048_ADDRESS 0x36
 
 void max17048_init() {

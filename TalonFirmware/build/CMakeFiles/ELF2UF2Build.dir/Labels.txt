@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/CMakeFiles/ELF2UF2Build
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/CMakeFiles/ELF2UF2Build.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/CMakeFiles/ELF2UF2Build-complete.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
