@@ -492,6 +492,30 @@ C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardw
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.obj
+
+# target to build an object file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.i: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.i
+
+# target to preprocess a source file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.s: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.s
+
+# target to generate assembly for a file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
+
 C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_irq\irq.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_irq\irq.obj
 
@@ -1176,6 +1200,9 @@ help:
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.s

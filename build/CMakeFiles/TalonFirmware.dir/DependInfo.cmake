@@ -102,6 +102,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/pico_int64_ops/include"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/boot_stage2/include"
+  "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/include"
   )
 
 # The set of dependency files which are needed:
@@ -118,6 +119,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_claim/claim.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
+  "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"

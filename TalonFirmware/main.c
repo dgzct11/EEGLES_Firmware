@@ -3,23 +3,64 @@
 #include "hardware/i2c.h"
 
 
-#define MAX17048_ADDRESS 0x36
+/* ------------------------------------------------------------------------------------------------------
+*/
+//Hardware Controller definitions
+#define BS_I2C i2c1
+#define SD__SPI
+#define ADS_SPI 
 
+
+//Pin Defitions
+#define BS_DIO 22
+#define BS_SCL 23
+#define BS_ALRT 24
+
+
+
+/*___________________________________________________________________________________________________________________
+MAX17048
+*/
+#define MAX17048_ADDRESS 0x36
+//function to handle alerts for the battery sensor
+void max17048_alert_handler(){
+    
+}
 void max17048_init() {
     // Initialize I2C
-    i2c_init(i2c_default, 100000);
-    gpio_set_function(4, GPIO_FUNC_I2C);
-    gpio_set_function(5, GPIO_FUNC_I2C);
-    gpio_pull_up(4);
-    gpio_pull_up(5);
+    i2c_init(BS_I2C, 100 * 1000);
+    
+   //set the function of the T2c pins
+    gpio_set_function(BS_DIO, GPIO_FUNC_I2C);
+    gpio_set_function(BS_SCL, GPIO_FUNC_I2C);
+    
+    //pull them up initially
+    gpio_pull_up(BS_DIO);
+    gpio_pull_up(BS_SCL);
+
+    //initialize the Alert Pin
+    gpio_init(BS_ALRT);
+    gpio_set_dir(BS_ALRT, GPIO_IN);
+
+    // Enable rising edge interrupts on GPIO pin 14
+    gpio_set_irq_enabled(BS_ALRT, GPIO_IRQ_EDGE_FALL, true);
+
+    // Register the interrupt handler function
+    irq_set_exclusive_handler(GPIO_IRQ_EDGE_FALL, max17048_alert_handler);
+
+    // Enable interrupts for the GPIO pin
+    irq_set_enabled(GPIO_IRQ_EDGE_FALL, true);
+
+
+
 
     // Reset the MAX17048
     uint8_t reset_data[] = { 0x54, 0x00 };
-    i2c_write_blocking(i2c_default, MAX17048_ADDRESS, reset_data, 2, false);
+    i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, reset_data, 2, false);
 
     // Configure the MAX17048 to continuously sample the battery
     uint8_t config_data[] = { 0x40, 0x00 };
-    i2c_write_blocking(i2c_default, MAX17048_ADDRESS, config_data, 2, false);
+    i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, config_data, 2, false);
 }
 
 float max17048_read_voltage() {
@@ -32,7 +73,7 @@ float max17048_read_voltage() {
     return ((float)voltage_raw * 1.25) / 1000.0;
 }
 
-float max17048_read_soc() {
+float max17048_read_charge() {
     uint8_t soc_register[] = { 0x04 };
     uint8_t soc_data[2];
     i2c_write_blocking(i2c_default, MAX17048_ADDRESS, soc_register, 1, true);
@@ -41,6 +82,13 @@ float max17048_read_soc() {
     uint16_t soc_raw = (soc_data[0] << 8) | soc_data[1];
     return (float)soc_raw / 256.0;
 }
+
+/*___________________________________________________________________________________________________________________
+ADS1299
+*/
+
+
+
 
 int main() {
     stdio_init_all();
