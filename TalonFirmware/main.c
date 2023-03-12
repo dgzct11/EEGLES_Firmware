@@ -3,7 +3,10 @@
 #include "hardware/i2c.h"
 #include <stdint.h>
 
-
+//SD Card
+//battery sensor
+//ads1299
+//wifi
 /* ------------------------------------------------------------------------------------------------------
 */
 //Hardware Controller definitions
@@ -36,7 +39,7 @@ MAX17048
 #define OVERVOLTAGE_ALRT 0
 #define UNDERVOLTAGE_ALRT 1
 
-bool * max17048_alert_handler(){
+void max17048_alert_handler(){
     
     uint8_t status_register[] = { 0x1A };
     uint8_t status_data[2];
@@ -50,7 +53,8 @@ bool * max17048_alert_handler(){
         (data >> 1)%2,
         (data >> 1)%2
     };
-    return result;
+    //TODO make this show something 
+    
 }
 void max17048_reset() {
     uint8_t reset_cmd[] = {0xFE, 0x54,0x00};
