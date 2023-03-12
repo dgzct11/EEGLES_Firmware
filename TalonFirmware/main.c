@@ -1,6 +1,7 @@
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
+#include "hardware/spi.h"
 #include <stdint.h>
 
 //SD Card
@@ -109,6 +110,52 @@ float max17048_read_charge() {
 /*___________________________________________________________________________________________________________________
 ADS1299
 */
+// Define ADS1299 register addresses
+#define ADS1299_REG_ID         0x00
+#define ADS1299_REG_CONFIG1    0x01
+#define ADS1299_REG_CONFIG2    0x02
+#define ADS1299_REG_CONFIG3    0x03
+// Define other register addresses...
+
+// Define ADS1299 command codes
+#define ADS1299_CMD_WAKEUP     0x02
+#define ADS1299_CMD_STANDBY    0x04
+#define ADS1299_CMD_RESET      0x06
+#define ADS1299_CMD_START      0x08
+#define ADS1299_CMD_STOP       0x0A
+// Define other command codes...
+
+// Initialize the SPI interface
+void init_spi() {
+    spi_init(spi0, 1000000);  // Set SPI clock to 1 MHz
+    gpio_set_function(PICO_DEFAULT_SPI_RX_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI);
+    gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
+    spi_set_format(spi0, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    spi_set_slave(spi0, 0);   // Set SPI slave to 0
+}
+
+// Send a command to the ADS1299
+void send_command(uint8_t cmd) {
+    uint8_t tx_data[1] = { cmd };
+    uint8_t rx_data[1];
+    spi_write_read_blocking(spi0, tx_data, rx_data, 1);
+}
+
+// Read a register value from the ADS1299
+uint8_t read_register(uint8_t reg_addr) {
+    uint8_t tx_data[2] = { 0x20 | reg_addr, 0x00 };
+    uint8_t rx_data[2];
+    spi_write_read_blocking(spi0, tx_data, rx_data, 2);
+    return rx_data[1];
+}
+
+// Write a register value to the ADS1299
+void write_register(uint8_t reg_addr, uint8_t reg_val) {
+    uint8_t tx_data[2] = { 0x40 | reg_addr, reg_val };
+    uint8_t rx_data[2];
+    spi_write_read_blocking(spi0, tx_data, rx_data, 2);
+}
 
 
 
@@ -124,4 +171,5 @@ int main() {
         printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
         sleep_ms(1000);
     }
+    return 0;
 }

@@ -572,6 +572,30 @@ C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardw
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.obj
+
+# target to build an object file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.i: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.i
+
+# target to preprocess a source file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.s: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.s
+
+# target to generate assembly for a file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+
 C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_sync\sync.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_sync\sync.obj
 
@@ -1210,6 +1234,9 @@ help:
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.i
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.s
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.s

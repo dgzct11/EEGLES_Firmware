@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+  "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"

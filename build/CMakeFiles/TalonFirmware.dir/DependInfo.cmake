@@ -103,6 +103,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/boot_stage2/include"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_spi/include"
   )
 
 # The set of dependency files which are needed:
@@ -122,6 +123,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d"
   "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" "gcc" "CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d"
