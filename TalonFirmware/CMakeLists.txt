@@ -18,4 +18,5 @@ target_link_libraries(${PROJECT_NAME}
 	pico_stdlib
 	hardware_i2c
 	hardware_spi
+	hardware_pio
 )

@@ -2,6 +2,7 @@
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
 #include "hardware/spi.h"
+#include "hardware/pio.h"
 #include <stdint.h>
 
 //SD Card
@@ -110,11 +111,35 @@ float max17048_read_charge() {
 /*___________________________________________________________________________________________________________________
 ADS1299
 */
+
+//define ADS1299 pins
+#define ADS1299_GPIO_RESET 6
+#define ADS1299_GPIO_CS 4
+#define ADS1299_GPIO_START 5
 // Define ADS1299 register addresses
+#define ADS1299_CHANNELS 8
+
 #define ADS1299_REG_ID         0x00
 #define ADS1299_REG_CONFIG1    0x01
 #define ADS1299_REG_CONFIG2    0x02
 #define ADS1299_REG_CONFIG3    0x03
+#define ADS1299_REG_LOFF       0x04
+#define ADS1299_REG_CH1SET    0x05
+#define ADS1299_REG_CH2SET    0x06
+#define ADS1299_REG_CH3SET    0x07
+#define ADS1299_REG_CH4SET    0x08
+#define ADS1299_REG_CH5SET    0x09
+#define ADS1299_REG_CH6SET    0x0a
+#define ADS1299_REG_CH7SET    0x0b
+#define ADS1299_REG_CH8SET    0x0c
+#define ADS1299_REG_BIAS_SENSP    0x09
+#define ADS1299_REG_BIAS_SENSN    0x0a
+#define ADS1299_REG_LOFF_SENSP    0x0b
+#define ADS1299_REG_LOFF_SENSN    0x0c
+#define ADS1299_REG_LOFF_FLIP    0x0c
+#define ADS1299_REG_LOFF_STATP    0x0c
+#define ADS1299_REG_LOFF_STATN    0x0c
+
 // Define other register addresses...
 
 // Define ADS1299 command codes
@@ -133,20 +158,20 @@ ADS1299
 
 // Define other command codes...
 static inline void cs_select() {
-    asm volatile("nop \n nop \n nop");
+    
     gpio_put(4, 0);  // Active low
-    asm volatile("nop \n nop \n nop");
+    
 }
 
 static inline void cs_deselect() {
-    asm volatile("nop \n nop \n nop");
+   
     gpio_put(4, 1);
-    asm volatile("nop \n nop \n nop");
+    
 }
 
 // Initialize the SPI interface
 void init_spi() {
-    spi_init(spi0, 2000000);  // Set SPI clock to 1 MHz
+    spi_init(spi0, 4000000);  // Set SPI clock to 1 MHz
     gpio_set_function(0, GPIO_FUNC_SPI);
     gpio_set_function(2, GPIO_FUNC_SPI);
     gpio_set_function(7, GPIO_FUNC_SPI);
@@ -160,12 +185,7 @@ void init_spi() {
     spi_set_format( spi0, 8, 0, 1, SPI_MSB_FIRST);
 }
 
-void ads1299_init() {
-    init_spi();
 
-
-    cs_select();
-}
 
 // Send a command to the ADS1299
 void send_command(uint8_t cmd) {
@@ -214,12 +234,42 @@ void write_register(uint8_t reg_addr, uint8_t reg_val) {
     
 }
 
+//when start goes high, drdy will go high, then drop after Tsettle, then will start indicating data ready. 
+bool first_drdy_fall_detected = false;
+void start_continuous_data(){
+    send_command(ADS1299_CMD_RDATAC);
+    gpio_put(ADS1299_GPIO_START, 1);
+    first_drdy_fall_detected = false;
+}
+
+void read_data(uint8_t *data){
+    //STATUS BYTE + 8-channel 
+    spi_read_blocking(spi0, 0x00, data, ADS1299_CHANNELS + 1);
+}
+
+void ads1299_init() {
+    //set RESET pin to 1
+    gpio_init(ADS1299_GPIO_RESET);
+    gpio_set_dir(ADS1299_GPIO_RESET, GPIO_OUT);
+    gpio_put(ADS1299_GPIO_RESET, 1);
+    sleep_ms(100);
+    init_spi();
+
+    //
+    //initialize start pin
+    gpio_init(5);
+    gpio_set_dir(5,GPIO_OUT);
+    
+    cs_select();
+}     
 
 
 
 int main() {
     stdio_init_all();
+    ads1299_init();
     max17048_init();
+    
 
     while (true) {
         float voltage = max17048_read_voltage();
