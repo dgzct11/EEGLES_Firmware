@@ -123,16 +123,48 @@ ADS1299
 #define ADS1299_CMD_RESET      0x06
 #define ADS1299_CMD_START      0x08
 #define ADS1299_CMD_STOP       0x0A
+
+#define ADS1299_CMD_RDATAC     0x10
+#define ADS1299_CMD_SDATAC     0x11
+#define ADS1299_CMD_RDATA      0x12
+
+#define READ_BIT 0x20
+#define WRITE_BIT 0x40
+
 // Define other command codes...
+static inline void cs_select() {
+    asm volatile("nop \n nop \n nop");
+    gpio_put(4, 0);  // Active low
+    asm volatile("nop \n nop \n nop");
+}
+
+static inline void cs_deselect() {
+    asm volatile("nop \n nop \n nop");
+    gpio_put(4, 1);
+    asm volatile("nop \n nop \n nop");
+}
 
 // Initialize the SPI interface
 void init_spi() {
-    spi_init(spi0, 1000000);  // Set SPI clock to 1 MHz
-    gpio_set_function(PICO_DEFAULT_SPI_RX_PIN, GPIO_FUNC_SPI);
-    gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI);
-    gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
-    spi_set_format(spi0, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
-    spi_set_slave(spi0, 0);   // Set SPI slave to 0
+    spi_init(spi0, 2000000);  // Set SPI clock to 1 MHz
+    gpio_set_function(0, GPIO_FUNC_SPI);
+    gpio_set_function(2, GPIO_FUNC_SPI);
+    gpio_set_function(7, GPIO_FUNC_SPI);
+    bi_decl(bi_3pins_with_func(0, 7, 2, GPIO_FUNC_SPI));
+
+    gpio_init(4);
+    gpio_set_dir(4,GPIO_OUT);
+    gpio_put(4, 1);
+
+    bi_decl(bi_1pin_with_name(1, "SPI CS"));
+    spi_set_format( spi0, 8, 0, 1, SPI_MSB_FIRST);
+}
+
+void ads1299_init() {
+    init_spi();
+
+
+    cs_select();
 }
 
 // Send a command to the ADS1299
@@ -142,19 +174,44 @@ void send_command(uint8_t cmd) {
     spi_write_read_blocking(spi0, tx_data, rx_data, 1);
 }
 
+//TODO finish read and write functions based on WREG and RREG command.
 // Read a register value from the ADS1299
 uint8_t read_register(uint8_t reg_addr) {
-    uint8_t tx_data[2] = { 0x20 | reg_addr, 0x00 };
-    uint8_t rx_data[2];
-    spi_write_read_blocking(spi0, tx_data, rx_data, 2);
-    return rx_data[1];
+    reg_addr |= READ_BIT;
+    uint8_t tx_data[3] = { reg_addr, 0x00, 0x00 };
+    uint8_t rx_data[3];
+    
+    spi_write_read_blocking(spi0, tx_data, rx_data, 3);
+   
+    return rx_data[2];
 }
 
+void read_consecutive_registers( uint8_t reg_addr, uint8_t len, uint8_t *read_buf ){
+    reg_addr |= READ_BIT;
+    uint8_t tx_data[len+2];
+    tx_data[0] = reg_addr;
+    tx_data[1] = len-1;
+
+    spi_write_read_blocking(spi0, tx_data, read_buf, len+2);
+}
+
+void write_consecutive_registers( uint8_t reg_addr, uint8_t *data){
+    reg_addr |= WRITE_BIT;
+    uint8_t len = sizeof(data);
+    uint8_t tx_data[len+2];
+    tx_data[0]= reg_addr;
+    tx_data[1] = len;
+    uint8_t rx_data[len+2];
+    spi_write_read_blocking(spi0, tx_data, rx_data, len+2); 
+}
 // Write a register value to the ADS1299
 void write_register(uint8_t reg_addr, uint8_t reg_val) {
-    uint8_t tx_data[2] = { 0x40 | reg_addr, reg_val };
-    uint8_t rx_data[2];
-    spi_write_read_blocking(spi0, tx_data, rx_data, 2);
+    reg_addr |= WRITE_BIT;
+    uint8_t tx_data[3] = { reg_addr,0x00,reg_val };
+    uint8_t rx_data[3];
+    
+    spi_write_read_blocking(spi0, tx_data, rx_data, 3);
+    
 }
 
 
@@ -168,7 +225,7 @@ int main() {
         float voltage = max17048_read_voltage();
         float soc = max17048_read_charge();
 
-        printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
+        //printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
         sleep_ms(1000);
     }
     return 0;

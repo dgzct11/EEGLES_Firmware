@@ -86,10 +86,26 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .rodata.max17048_reset.str1.4
+                0x00000000        0x3 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.max17048_reset
+                0x00000000       0x2c CMakeFiles/TalonFirmware.dir/main.c.obj
  .text.max17048_read_voltage
                 0x00000000       0x64 CMakeFiles/TalonFirmware.dir/main.c.obj
- .text.max17048_read_soc
+ .text.max17048_read_charge
                 0x00000000       0x4c CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.init_spi
+                0x00000000       0x50 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.ads1299_init
+                0x00000000       0x60 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.send_command
+                0x00000000       0x1c CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.read_register
+                0x00000000       0x2c CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.read_consecutive_registers
+                0x00000000       0x30 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .text.write_register
+                0x00000000       0x28 CMakeFiles/TalonFirmware.dir/main.c.obj
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -133,8 +149,6 @@ Discarded input sections
                 0x00000000       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_get_drive_strength
                 0x00000000       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_set_irq_enabled
-                0x00000000       0x54 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_irq_enabled_with_callback
                 0x00000000       0xc4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_irq_callback
@@ -153,8 +167,6 @@ Discarded input sections
                 0x00000000       0x7c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_input_enabled
                 0x00000000       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .text.gpio_init
-                0x00000000       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_deinit
                 0x00000000       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_init_mask
@@ -540,14 +552,34 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_buffer
                 0x00000000        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_null
+                0x00000000        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_rev
+                0x00000000       0x90 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ntoa_format
+                0x00000000      0x1f4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_fct
+                0x00000000       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x00000000      0x454 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata._ftoa.str1.4
+                0x00000000       0x15 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x00000000      0x3c4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._vsnprintf
+                0x00000000      0xb24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata._vsnprintf
+                0x00000000      0x19c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
                 0x00000000       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_snprintf
                 0x00000000       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_vsnprintf
                 0x00000000       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text.vfctprintf
+                0x00000000       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_printf
                 0x00000000       0x40 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata.pow10.0
+                0x00000000       0x50 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.clzsi    0x00000000        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -568,6 +600,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .text.__wrap___aeabi_idiv
+                0x00000000       0x50 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .text.__wrap___aeabi_ldiv
+                0x00000000      0x424 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_s64s64_rem
                 0x00000000        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_u64u64_rem
@@ -579,13 +615,31 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.pop_r8_r11
                 0x00000000        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_darithmetic
+                0x00000000       0x80 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_cdcmple
+                0x00000000       0x6c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_dcmpeq
                 0x00000000       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_dcmplt
+                0x00000000        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_dcmple
                 0x00000000       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_dcmpge
+                0x00000000       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_dcmpgt
+                0x00000000        0xa CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_dcmpun
+                0x00000000       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_ui2d
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_i2d
+                0x00000000       0x38 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_d2iz
+                0x00000000       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2int
+                0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_d2uiz
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.fix2double
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -610,6 +664,8 @@ Discarded input sections
  .text.double2fix
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2ufix
+                0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .text.__wrap___aeabi_d2f
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_srqt
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -707,6 +763,14 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.__wrap___aeabi_dsub
+                0x00000000       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.dadd_shim
+                0x00000000      0x15c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.dmul_shim
+                0x00000000      0x15c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.ddiv_shim
+                0x00000000      0x1b0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dsqrt_shim
                 0x00000000      0x1a8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dcordic_vec_step
@@ -715,10 +779,18 @@ Discarded input sections
                 0x00000000       0x76 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int_shim
                 0x00000000        0xe CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.double2uint_shim
+                0x00000000        0xe CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int64_shim
                 0x00000000       0x1a CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.double2uint64_shim
+                0x00000000       0x70 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.double2float_shim
+                0x00000000       0x5c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.x2double_shims
                 0x00000000       0x90 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .text.dunpacks
+                0x00000000       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dreduce  0x00000000       0x82 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dtan_shim
                 0x00000000       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -738,6 +810,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .text.__wrap___aeabi_farithmetic
+                0x00000000       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_cfcmple
                 0x00000000       0x50 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_fcmpeq
@@ -752,6 +826,10 @@ Discarded input sections
                 0x00000000        0xa CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_fcmpun
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .text.__wrap___aeabi_ui2f
+                0x00000000        0xa CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .text.__wrap___aeabi_i2f
+                0x00000000       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap___aeabi_f2iz
                 0x00000000       0x4e CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.float2int
@@ -783,6 +861,8 @@ Discarded input sections
  .text.__wrap___aeabi_f2ulz
                 0x00000000       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.float2ufix64
+                0x00000000       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .text.__wrap___aeabi_f2d
                 0x00000000       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap_sqrtf
                 0x00000000       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -889,6 +969,8 @@ Discarded input sections
                 0x00000000       0x4c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .text.d2fix_a_float
                 0x00000000       0x5c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .text.float2double_shim
+                0x00000000       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -933,6 +1015,8 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_no_crlf
                 0x00000000       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_buffered_printer
+                0x00000000       0x64 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
                 0x00000000       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_end
@@ -950,6 +1034,10 @@ Discarded input sections
  .text._isatty  0x00000000        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_flush
                 0x00000000       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.__wrap_vprintf
+                0x00000000       0xd4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.__wrap_printf
+                0x00000000       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
                 0x00000000       0x7c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.getchar_timeout_us
@@ -1004,11 +1092,35 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_read_timeout_per_char_us
                 0x00000000       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .data.i2c1_inst
-                0x00000000        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x00000000        0x0 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccmwSUDw.o
- .data          0x00000000        0x0 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccmwSUDw.o
- .bss           0x00000000        0x0 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccmwSUDw.o
+ .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .text.spi_init
+                0x00000000       0xf0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .text.spi_deinit
+                0x00000000       0x38 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .text.spi_set_baudrate
+                0x00000000       0x94 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .text.spi_get_baudrate
+                0x00000000       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .time_critical.spi_write_read_blocking
+                0x00000000       0x78 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .time_critical.spi_write_blocking
+                0x00000000       0x4c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .time_critical.spi_read_blocking
+                0x00000000       0x68 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .time_critical.spi_write16_read16_blocking
+                0x00000000       0x78 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .time_critical.spi_write16_blocking
+                0x00000000       0x50 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .time_critical.spi_read16_blocking
+                0x00000000       0x68 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .ARM.attributes
+                0x00000000       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .text          0x00000000        0x0 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccWQMM3v.o
+ .data          0x00000000        0x0 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccWQMM3v.o
+ .bss           0x00000000        0x0 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccWQMM3v.o
  .data          0x00000000        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libc.a(libc_a-calloc.o)
@@ -1327,11 +1439,11 @@ LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccmwSUDw.o
+ .boot2         0x10000000      0x100 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccWQMM3v.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x48c0
+.text           0x10000100     0x2508
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1395,369 +1507,248 @@ LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-no
                 0x100002bc       0x28 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.frame_dummy
                 0x100002e4       0x24 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+ .text.max17048_alert_handler
+                0x10000308       0x38 CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x10000308                max17048_alert_handler
  .text.max17048_init
-                0x10000308       0x64 CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x10000308                max17048_init
+                0x10000340       0x68 CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x10000340                max17048_init
  .text.startup.main
-                0x1000036c       0xf0 CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x1000036c                main
+                0x100003a8       0x7c CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x100003a8                main
  .text.gpio_set_function
-                0x1000045c       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000045c                gpio_set_function
+                0x10000424       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000424                gpio_set_function
  .text.gpio_set_pulls
-                0x1000048c       0x24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000048c                gpio_set_pulls
+                0x10000454       0x24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000454                gpio_set_pulls
+ .text.gpio_set_irq_enabled
+                0x10000478       0x54 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000478                gpio_set_irq_enabled
+ .text.gpio_init
+                0x100004cc       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004cc                gpio_init
  .text.running_on_fpga
-                0x100004b0       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100004b0                running_on_fpga
+                0x10000508       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000508                running_on_fpga
  .text.hw_claim_or_assert
-                0x100004c0       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004c0                hw_claim_or_assert
+                0x10000518       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000518                hw_claim_or_assert
  .text.spin_locks_reset
-                0x10000504       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000504                spin_locks_reset
+                0x1000055c       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000055c                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000520       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000520                next_striped_spin_lock_num
+                0x10000578       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000578                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x10000538       0x24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000538                irq_set_enabled
+                0x10000590       0x24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000590                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x1000055c       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000055c                irq_get_vtable_handler
+                0x100005b4       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005b4                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x1000056c       0x54 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000056c                irq_set_exclusive_handler
+                0x100005c4       0x54 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005c4                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100005c0      0x1c4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005c0                irq_remove_handler
+                0x10000618      0x1c4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000618                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000784       0xb4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000784                irq_add_tail_to_free_list
+                0x100007dc       0xb4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007dc                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000838       0x24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000838                irq_init_priorities
+                0x10000890       0x24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000890                irq_init_priorities
  .text.lock_init
-                0x1000085c       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x1000085c                lock_init
+                0x100008b4       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100008b4                lock_init
  .text.mutex_init
-                0x1000086c       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000086c                mutex_init
+                0x100008c4       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100008c4                mutex_init
  .text.recursive_mutex_init
-                0x10000888       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000888                recursive_mutex_init
+                0x100008e0       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100008e0                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x100008a4       0x34 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x100008a4                timer_pool_entry_comparator
+                0x100008fc       0x34 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x100008fc                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100008d8       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000930       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000908      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000960      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000a08      0x1bc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a60      0x1bc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000bc4       0x6c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000bc4                alarm_pool_init_default
+                0x10000c1c       0x6c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c1c                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10000c30      0x188 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c30                alarm_pool_add_alarm_at
+                0x10000c88      0x188 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c88                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x10000db8       0x6c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000db8                alarm_pool_cancel_alarm
+                0x10000e10       0x6c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e10                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x10000e24       0xc4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e24                sleep_until
+                0x10000e7c       0xc4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000e7c                sleep_until
  .text.sleep_ms
-                0x10000ee8       0x38 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000ee8                sleep_ms
+                0x10000f40       0x38 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f40                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000f20       0x78 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000f20                best_effort_wfe_or_timeout
+                0x10000f78       0x78 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f78                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10000f98       0xbc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000ff0       0xbc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001054       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001054                hardware_alarm_claim
+                0x100010ac       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010ac                hardware_alarm_claim
  .text.time_us_64
-                0x1000106c       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000106c                time_us_64
+                0x100010c4       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010c4                time_us_64
  .text.busy_wait_until
-                0x10001080       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001080                busy_wait_until
+                0x100010d8       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010d8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x100010a0       0x8c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100010a0                hardware_alarm_set_callback
+                0x100010f8       0x8c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010f8                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x1000112c       0xdc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000112c                hardware_alarm_set_target
+                0x10001184       0xdc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001184                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001208       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001208                hardware_alarm_cancel
+                0x10001260       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001260                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001244       0x64 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000129c       0x64 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x100012a8       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100012a8                ph_post_alloc_init
+                0x10001300       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001300                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x100012e4       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100012e4                ph_merge_two_pass
+                0x1000133c       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000133c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x1000137c      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100013d4      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x1000147c      0x104 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000147c                ph_remove_head
+                0x100014d4      0x104 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100014d4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001580       0x78 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001580                ph_remove_and_free_node
+                0x100015d8       0x78 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100015d8                ph_remove_and_free_node
  .text.uart_init
-                0x100015f8       0xe0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x100015f8                uart_init
+                0x10001650       0xe0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001650                uart_init
  .text.clocks_init
-                0x100016d8      0x2b4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100016d8                clocks_init
+                0x10001730      0x2b4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001730                clocks_init
  .text.clock_get_hz
-                0x1000198c        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000198c                clock_get_hz
+                0x100019e4        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100019e4                clock_get_hz
  .text.pll_init
-                0x10001998       0xa8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001998                pll_init
+                0x100019f0       0xa8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x100019f0                pll_init
  .text.watchdog_start_tick
-                0x10001a40       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001a40                watchdog_start_tick
+                0x10001a98       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001a98                watchdog_start_tick
  .text.xosc_init
-                0x10001a50       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001a50                xosc_init
+                0x10001aa8       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001aa8                xosc_init
  .text.runtime_init
-                0x10001a78       0xf0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001a78                runtime_init
- .text._exit    0x10001b68        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b68                _exit
- .text.exit     0x10001b6c        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b6c                exit
- .text.panic    0x10001b74       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001b74                panic
+                0x10001ad0       0xf0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001ad0                runtime_init
+ .text._exit    0x10001bc0        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001bc0                _exit
+ .text.exit     0x10001bc4        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001bc4                exit
+ .text.panic    0x10001bcc       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001bcc                panic
  .text.hard_assertion_failure
-                0x10001ba4        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001ba4                hard_assertion_failure
- .text._out_null
-                0x10001bb0        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_rev
-                0x10001bb4       0x90 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ntoa_format
-                0x10001c44      0x1f4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001bfc        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001bfc                hard_assertion_failure
  .text._out_char
-                0x10001e38       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_fct
-                0x10001e48       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10001e58      0x454 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x100022ac      0x3c4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._vsnprintf
-                0x10002670      0xb24 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text.vfctprintf
-                0x10003194       0x20 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003194                vfctprintf
+                0x10001c08       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x100031b4       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100031b4                weak_raw_vprintf
- .text          0x100031e4       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001c18       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001c18                weak_raw_vprintf
+ .text          0x10001c48       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x100031f4       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100031f4                rom_func_lookup
+                0x10001c58       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001c58                rom_func_lookup
  .text.rom_data_lookup
-                0x10003204       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003204                rom_data_lookup
+                0x10001c68       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001c68                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003214       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003214                rom_funcs_lookup
- .text.__wrap___aeabi_idiv
-                0x10003258       0x50 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003258                __wrap___aeabi_idivmod
-                0x10003258                divmod_s32s32
-                0x10003258                div_s32s32
-                0x10003258                __wrap___aeabi_idiv
-                0x10003260                divmod_s32s32_unsafe
-                0x1000328c                divmod_s32s32_savestate
+                0x10001c78       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001c78                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x100032a8       0x4c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100032a8                __wrap___aeabi_uidiv
-                0x100032a8                __wrap___aeabi_uidivmod
-                0x100032a8                div_u32u32
-                0x100032a8                divmod_u32u32
-                0x100032b0                divmod_u32u32_unsafe
-                0x100032d8                divmod_u32u32_savestate
- .text.__wrap___aeabi_ldiv
-                0x100032f4      0x424 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100032f4                div_s64s64
-                0x100032f4                divmod_s64s64
-                0x100032f4                __wrap___aeabi_ldivmod
-                0x10003324                divmod_u64u64
-                0x10003324                div_u64u64
-                0x10003324                __wrap___aeabi_uldivmod
-                0x10003334                divmod_u64u64_savestate
-                0x10003354                divmod_s64s64_unsafe
-                0x100033dc                divmod_u64u64_unsafe
- .text.__wrap___aeabi_darithmetic
-                0x10003718       0x80 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003718                __wrap___aeabi_drsub
-                0x1000371e                __wrap___aeabi_dsub
-                0x10003730                __wrap___aeabi_dadd
-                0x10003742                __wrap___aeabi_ddiv
-                0x1000377e                __wrap___aeabi_dmul
- .text.__wrap___aeabi_cdcmple
-                0x10003798       0x6c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003798                __wrap___aeabi_cdrcmple
-                0x100037a8                __wrap___aeabi_cdcmpeq
-                0x100037a8                __wrap___aeabi_cdcmple
- .text.__wrap___aeabi_dcmplt
-                0x10003804        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003804                __wrap___aeabi_dcmplt
- .text.__wrap___aeabi_dcmpge
-                0x10003810       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003810                __wrap___aeabi_dcmpge
- .text.__wrap___aeabi_dcmpgt
-                0x10003820        0xa CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003820                __wrap___aeabi_dcmpgt
- .text.__wrap___aeabi_dcmpun
-                0x1000382a       0x1c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x1000382a                __wrap___aeabi_dcmpun
- *fill*         0x10003846        0x2 
- .text.__wrap___aeabi_i2d
-                0x10003848       0x38 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003848                __wrap___aeabi_ui2d
-                0x10003850                __wrap___aeabi_i2d
- .text.__wrap___aeabi_d2iz
-                0x10003880       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003880                double2int_z
-                0x10003880                __wrap___aeabi_d2iz
- .text.__wrap___aeabi_d2uiz
-                0x100038c8       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100038c8                __wrap___aeabi_d2uiz
-                0x100038c8                double2uint
- .text.__wrap___aeabi_d2f
-                0x100038e0       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100038e0                __wrap___aeabi_d2f
+                0x10001cbc       0x4c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10001cbc                __wrap___aeabi_uidiv
+                0x10001cbc                __wrap___aeabi_uidivmod
+                0x10001cbc                div_u32u32
+                0x10001cbc                divmod_u32u32
+                0x10001cc4                divmod_u32u32_unsafe
+                0x10001cec                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x100038f8       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x100038f8                __aeabi_double_init
+                0x10001d08       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10001d08                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003990       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003990                double_table_shim_on_use_helper
- .text.__wrap___aeabi_dsub
-                0x100039bc       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100039bc                drsub_shim
-                0x100039c2                dsub_shim
- .text.dadd_shim
-                0x100039cc      0x15c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100039cc                dadd_shim
- .text.dmul_shim
-                0x10003b28      0x15c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003b28                dmul_shim
- .text.ddiv_shim
-                0x10003c84      0x1b0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c84                ddiv_shim
- .text.double2uint_shim
-                0x10003e34        0xe CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003e34                double2uint_shim
-                0x10003e36                double2ufix_shim
- *fill*         0x10003e42        0x2 
- .text.double2uint64_shim
-                0x10003e44       0x70 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003e44                double2uint64_shim
-                0x10003e46                double2ufix64_shim
-                0x10003e66                d2fix_a
- .text.double2float_shim
-                0x10003eb4       0x5c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003eb4                double2float_shim
- .text.dunpacks
-                0x10003f10       0x3c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003f10                dunpacks
+                0x10001da0       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10001da0                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10003f4c       0x32 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003f4c                __wrap___aeabi_lmul
- *fill*         0x10003f7e        0x2 
- .text.__wrap___aeabi_farithmetic
-                0x10003f80       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10003f80                __wrap___aeabi_frsub
-                0x10003f86                __wrap___aeabi_fsub
-                0x10003f8c                __wrap___aeabi_fadd
-                0x10003f92                __wrap___aeabi_fdiv
-                0x10003fba                __wrap___aeabi_fmul
- .text.__wrap___aeabi_ui2f
-                0x10003fc8        0xa CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10003fc8                __wrap___aeabi_ui2f
- *fill*         0x10003fd2        0x2 
- .text.__wrap___aeabi_i2f
-                0x10003fd4       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10003fd4                __wrap___aeabi_i2f
- .text.__wrap___aeabi_f2d
-                0x10004018       0x14 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10004018                __wrap___aeabi_f2d
+                0x10001dcc       0x32 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10001dcc                __wrap___aeabi_lmul
+ *fill*         0x10001dfe        0x2 
  .text.__aeabi_float_init
-                0x1000402c       0x64 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x1000402c                __aeabi_float_init
+                0x10001e00       0x64 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10001e00                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10004090       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10004090                float_table_shim_on_use_helper
- .text.float2double_shim
-                0x100040bc       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x100040bc                float2double_shim
- .text          0x100040ec       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100040ec                __aeabi_mem_init
- .text.memcpy   0x100040fc        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100040fc                __wrap_memcpy
-                0x100040fc                __wrap___aeabi_memcpy
+                0x10001e64       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10001e64                float_table_shim_on_use_helper
+ .text          0x10001e90       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001e90                __aeabi_mem_init
+ .text.memcpy   0x10001ea0        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10001ea0                __wrap_memcpy
+                0x10001ea0                __wrap___aeabi_memcpy
  .text.stdio_out_chars_crlf
-                0x10004108       0xbc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_buffered_printer
-                0x100041c4       0x64 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001eac       0xbc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004228       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004228                __wrap_putchar
+                0x10001f68       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10001f68                __wrap_putchar
  .text.__wrap_puts
-                0x100042c0       0xe0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100042c0                __wrap_puts
+                0x10002000       0xe0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002000                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x100043a0       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100043a0                stdio_set_driver_enabled
- .text.__wrap_vprintf
-                0x100043d0       0xd4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100043d0                __wrap_vprintf
- .text.__wrap_printf
-                0x100044a4       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044a4                __wrap_printf
+                0x100020e0       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100020e0                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x100044bc        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044bc                stdio_init_all
+                0x10002110        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002110                stdio_init_all
  .text.stdio_uart_out_chars
-                0x100044c8       0x4c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000211c       0x4c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10004514       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004514                stdio_uart_in_chars
+                0x10002168       0x98 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002168                stdio_uart_in_chars
  .text.on_uart_rx
-                0x100045ac       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002200       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x100045d4       0x8c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002228       0x8c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x10004660       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004660                stdio_uart_init
+                0x100022b4       0x48 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100022b4                stdio_uart_init
  .text.i2c_set_baudrate
-                0x100046a8       0xc4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100046a8                i2c_set_baudrate
+                0x100022fc       0xc4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100022fc                i2c_set_baudrate
  .text.i2c_init
-                0x1000476c       0x54 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x1000476c                i2c_init
+                0x100023c0       0x54 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100023c0                i2c_init
  .text.i2c_write_blocking
-                0x100047c0       0xd0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100047c0                i2c_write_blocking
+                0x10002414       0xd0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10002414                i2c_write_blocking
  .text.i2c_read_blocking
-                0x10004890       0x90 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10004890                i2c_read_blocking
- .text.strlen   0x10004920       0x5c c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
-                0x10004920                strlen
+                0x100024e4       0x90 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100024e4                i2c_read_blocking
+ .text.strlen   0x10002574       0x5c c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libc.a(libc_a-strlen-stub.o)
+                0x10002574                strlen
  *(.fini)
- .fini          0x1000497c        0x4 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
-                0x1000497c                _fini
- .fini.__stub   0x10004980       0x40 linker stubs
+ .fini          0x100025d0        0x4 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
+                0x100025d0                _fini
+ *fill*         0x100025d4        0x4 
+ .fini.__stub   0x100025d8       0x30 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1769,109 +1760,112 @@ LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-no
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x100049c0        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x100049c0                . = ALIGN (0x4)
+ .eh_frame      0x10002608        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10002608                . = ALIGN (0x4)
 
-.glue_7         0x100049c0        0x0
- .glue_7        0x100049c0        0x0 linker stubs
+.glue_7         0x10002608        0x0
+ .glue_7        0x10002608        0x0 linker stubs
 
-.glue_7t        0x100049c0        0x0
- .glue_7t       0x100049c0        0x0 linker stubs
+.glue_7t        0x10002608        0x0
+ .glue_7t       0x10002608        0x0 linker stubs
 
-.vfp11_veneer   0x100049c0        0x0
- .vfp11_veneer  0x100049c0        0x0 linker stubs
+.vfp11_veneer   0x10002608        0x0
+ .vfp11_veneer  0x10002608        0x0 linker stubs
 
-.v4_bx          0x100049c0        0x0
- .v4_bx         0x100049c0        0x0 linker stubs
+.v4_bx          0x10002608        0x0
+ .v4_bx         0x10002608        0x0 linker stubs
 
-.iplt           0x100049c0        0x0
- .iplt          0x100049c0        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10002608        0x0
+ .iplt          0x10002608        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100049c0      0x334
+.rodata         0x10002608      0x118
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
+ .rodata.max17048_alert_handler.str1.4
+                0x10002608        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x1000260a        0x2 
  .rodata.max17048_read_voltage.str1.4
-                0x100049c0        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
- *fill*         0x100049c2        0x2 
- .rodata.max17048_read_soc.str1.4
-                0x100049c4        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
- *fill*         0x100049c6        0x2 
- .rodata.main.str1.4
-                0x100049c8       0x31 CMakeFiles/TalonFirmware.dir/main.c.obj
- *fill*         0x100049f9        0x3 
+                0x1000260c        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x1000260e        0x2 
+ .rodata.max17048_read_charge.str1.4
+                0x10002610        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x10002612        0x2 
+ .rodata.__bi_153.0
+                0x10002614        0x8 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .rodata.str1.4
+                0x1000261c        0x7 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x10002623        0x1 
+ .rodata.__bi_159.1
+                0x10002624        0xc CMakeFiles/TalonFirmware.dir/main.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x100049fc       0x22 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004a1e        0x2 
+                0x10002630       0x22 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10002652        0x2 
  .rodata.panic.str1.4
-                0x10004a20       0x12 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004a32        0x2 
+                0x10002654       0x12 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10002666        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x10004a34        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .rodata._ftoa.str1.4
-                0x10004a40       0x15 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10004a55        0x3 
- .rodata._vsnprintf
-                0x10004a58      0x19c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10004bf4        0x4 
- .rodata.pow10.0
-                0x10004bf8       0x50 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002668        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x10004c48       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002674       0x44 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10004c8c        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100026b8        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10004c98        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100026c4        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10004ca4        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100026d0        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10004cb0        0x2 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10004cb2        0x2 
+                0x100026dc        0x2 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x100026de        0x2 
  .rodata.str1.4
-                0x10004cb4       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100026e0       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x10004ce0        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000270c        0xc CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10004cec        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004cf4                . = ALIGN (0x4)
+                0x10002718        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002720                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10004cf4                . = ALIGN (0x4)
+                0x10002720                . = ALIGN (0x4)
 
-.rel.dyn        0x10004cf4        0x0
- .rel.iplt      0x10004cf4        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10002720        0x0
+ .rel.iplt      0x10002720        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10004cf4                __exidx_start = .
+                0x10002720                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10004cf4                __exidx_end = .
-                0x10004cf4                . = ALIGN (0x4)
-                0x10004cf4                __binary_info_start = .
+                0x10002720                __exidx_end = .
+                0x10002720                . = ALIGN (0x4)
+                0x10002720                __binary_info_start = .
 
-.binary_info    0x10004cf4       0x24
+.binary_info    0x10002720       0x2c
  *(.binary_info.keep.*)
+ .binary_info.keep.__bi_ptr159
+                0x10002720        0x4 CMakeFiles/TalonFirmware.dir/main.c.obj
+ .binary_info.keep.__bi_ptr153
+                0x10002724        0x4 CMakeFiles/TalonFirmware.dir/main.c.obj
  .binary_info.keep.__bi_ptr81
-                0x10004cf4        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002728        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10004cf8        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000272c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10004cfc        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002730        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10004d00        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002734        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10004d04        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002738        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10004d08        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000273c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10004d0c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10002740        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr34
-                0x10004d10        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002744        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr33
-                0x10004d14        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004d18                __binary_info_end = .
-                0x10004d18                . = ALIGN (0x4)
-                0x10004d18                __etext = .
+                0x10002748        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000274c                __binary_info_end = .
+                0x1000274c                . = ALIGN (0x4)
+                0x1000274c                __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -1880,7 +1874,7 @@ LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-no
                 0x20000000       0xc0 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x1ac load address 0x10004d18
+.data           0x200000c0      0x1b4 load address 0x1000274c
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1922,130 +1916,133 @@ LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-no
  .data.stdio_uart
                 0x20000230       0x18 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
                 0x20000230                stdio_uart
- .data.i2c0_inst
+ .data.i2c1_inst
                 0x20000248        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x20000248                i2c0_inst
-                0x20000250                . = ALIGN (0x4)
+                0x20000248                i2c1_inst
+ .data.i2c0_inst
+                0x20000250        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x20000250                i2c0_inst
+                0x20000258                . = ALIGN (0x4)
  *(.after_data.*)
-                0x20000250                . = ALIGN (0x4)
-                0x20000250                PROVIDE (__mutex_array_start = .)
+                0x20000258                . = ALIGN (0x4)
+                0x20000258                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x20000250        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x20000258                PROVIDE (__mutex_array_end = .)
-                0x20000258                . = ALIGN (0x4)
-                0x20000258                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x20000258        0x8 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x20000260                PROVIDE (__mutex_array_end = .)
+                0x20000260                . = ALIGN (0x4)
+                0x20000260                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x20000258        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x20000260        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x2000025c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x20000264        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x20000260        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x20000268        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x20000264        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x2000026c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x20000268                PROVIDE (__preinit_array_end = .)
-                0x20000268                . = ALIGN (0x4)
-                0x20000268                PROVIDE (__init_array_start = .)
+                0x20000270                PROVIDE (__preinit_array_end = .)
+                0x20000270                . = ALIGN (0x4)
+                0x20000270                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x20000268        0x4 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x2000026c                PROVIDE (__init_array_end = .)
-                0x2000026c                . = ALIGN (0x4)
+ .init_array    0x20000270        0x4 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x20000274                PROVIDE (__init_array_end = .)
+                0x20000274                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x2000026c                . = ALIGN (0x4)
-                0x2000026c                __data_end__ = .
+                0x20000274                . = ALIGN (0x4)
+                0x20000274                __data_end__ = .
 
 .tm_clone_table
-                0x2000026c        0x0 load address 0x10004ec4
+                0x20000274        0x0 load address 0x10002900
  .tm_clone_table
-                0x2000026c        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x20000274        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x2000026c        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
+                0x20000274        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x2000026c        0x0 load address 0x10004ec4
- .igot.plt      0x2000026c        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x20000274        0x0 load address 0x10002900
+ .igot.plt      0x20000274        0x0 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x2000026c        0x0 load address 0x10004ec4
-                0x2000026c                . = ALIGN (0x4)
+                0x20000274        0x0 load address 0x10002900
+                0x20000274                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10004ec4
+.scratch_x      0x20040000        0x0 load address 0x10002900
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10004ec4                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10002900                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10004ec4
+.scratch_y      0x20041000        0x0 load address 0x10002900
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10004ec4                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10002900                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x20000270      0x3d8
-                0x20000270                . = ALIGN (0x4)
-                0x20000270                __bss_start__ = .
+.bss            0x20000278      0x3d8
+                0x20000278                . = ALIGN (0x4)
+                0x20000278                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.configured_freq
-                0x20000270       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x20000278       0x28 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.default_alarm_pool_entries
-                0x20000298      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
- .bss.sd_table  0x20000398      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x20000398                sd_table
- .bss.sf_table  0x20000498      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x20000498                sf_table
+                0x200002a0      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.sd_table  0x200003a0      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x200003a0                sd_table
+ .bss.sf_table  0x200004a0      0x100 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x200004a0                sf_table
  .bss.alarm_callbacks
-                0x20000598       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x200005a0       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.chars_available_callback
-                0x200005a8        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x200005b0        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.chars_available_param
-                0x200005ac        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x200005b4        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.default_alarm_pool_entry_ids_high
-                0x200005b0       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x200005b8       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x200005c0       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
- .bss.drivers   0x200005f0        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .bss.filter    0x200005f4        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x200005c8       0x30 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+ .bss.drivers   0x200005f8        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .bss.filter    0x200005fc        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.lazy_vsnprintf
-                0x200005f8        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .bss.object.0  0x200005fc       0x18 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
- .bss.pools     0x20000614       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x20000600        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .bss.object.0  0x20000604       0x18 c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.pools     0x2000061c       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
  .bss.sf_clz_func
-                0x20000624        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x20000624                sf_clz_func
+                0x2000062c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x2000062c                sf_clz_func
  .bss.sleep_notifier
-                0x20000628        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
+                0x20000630        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/common/pico_time/time.c.obj
  .bss.target_hi
-                0x2000062c       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x20000634       0x10 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.uart_char_to_line_feed
-                0x2000063c        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x2000063c                uart_char_to_line_feed
+                0x20000644        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x20000644                uart_char_to_line_feed
  .bss.uart_instance
-                0x20000640        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.claimed   0x20000644        0x1 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x20000648        0x4 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .bss.claimed   0x2000064c        0x1 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x20000645        0x1 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x2000064d        0x1 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss.timer_callbacks_pending
-                0x20000646        0x1 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x2000064e        0x1 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
-                0x20000648                . = ALIGN (0x4)
- *fill*         0x20000647        0x1 
-                0x20000648                __bss_end__ = .
+                0x20000650                . = ALIGN (0x4)
+ *fill*         0x2000064f        0x1 
+                0x20000650                __bss_end__ = .
 
-.heap           0x20000648      0x800
-                0x20000648                __end__ = .
-                0x20000648                end = __end__
+.heap           0x20000650      0x800
+                0x20000650                __end__ = .
+                0x20000650                end = __end__
  *(.heap*)
- .heap          0x20000648      0x800 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x20000e48                __HeapLimit = .
+ .heap          0x20000650      0x800 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x20000e50                __HeapLimit = .
 
 .stack1_dummy
  *(.stack1*)
@@ -2054,8 +2051,8 @@ LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-no
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10004ec4        0x0
-                0x10004ec4                __flash_binary_end = .
+.flash_end      0x10002900        0x0
+                0x10002900                __flash_binary_end = .
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2111,7 +2108,8 @@ LOAD CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/Y
 LOAD CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD C:\Users\DAVIDZ~1\AppData\Local\Temp\ccmwSUDw.o
+LOAD CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+LOAD C:\Users\DAVIDZ~1\AppData\Local\Temp\ccWQMM3v.o
 LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2205,7 +2203,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000005be       0x2c CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x000005ea       0x22 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccmwSUDw.o
+                0x000005ea       0x22 C:\Users\DAVIDZ~1\AppData\Local\Temp\ccWQMM3v.o
  .ARM.attributes
                 0x0000060c       0x1e c:/progra~2/arm gnu toolchain arm-none-eabi/12.2 rel1/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

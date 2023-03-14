@@ -858,9 +858,6 @@
 				{
 					"backtrace" : 2,
 					"fragment" : "-fno-use-cxa-atexit"
-				},
-				{
-					"fragment" : "-std=gnu++17"
 				}
 			],
 			"defines" : 
