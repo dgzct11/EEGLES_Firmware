@@ -3,6 +3,7 @@
 #include "hardware/i2c.h"
 #include "hardware/spi.h"
 #include "hardware/pio.h"
+#include "hardware/uart.h"
 #include <stdint.h>
 
 //SD Card
@@ -25,7 +26,7 @@
 
 
 /*___________________________________________________________________________________________________________________
-MAX17048
+BMAX17048
 */
 #define MAX17048_ADDRESS 0x36
 //function to handle alerts for the battery sensor
@@ -109,7 +110,7 @@ float max17048_read_charge() {
 }
 
 /*___________________________________________________________________________________________________________________
-ADS1299
+BADS1299
 */
 
 //define ADS1299 pins
@@ -139,6 +140,8 @@ ADS1299
 #define ADS1299_REG_LOFF_FLIP    0x0c
 #define ADS1299_REG_LOFF_STATP    0x0c
 #define ADS1299_REG_LOFF_STATN    0x0c
+
+#define ADS1299_REG_MISC1         0x15
 
 // Define other register addresses...
 
@@ -234,6 +237,8 @@ void write_register(uint8_t reg_addr, uint8_t reg_val) {
     
 }
 
+
+
 //when start goes high, drdy will go high, then drop after Tsettle, then will start indicating data ready. 
 bool first_drdy_fall_detected = false;
 void start_continuous_data(){
@@ -248,20 +253,92 @@ void read_data(uint8_t *data){
 }
 
 void ads1299_init() {
-    //set RESET pin to 1
+    //initialize RESET pin and set RESET pin to 1
     gpio_init(ADS1299_GPIO_RESET);
     gpio_set_dir(ADS1299_GPIO_RESET, GPIO_OUT);
     gpio_put(ADS1299_GPIO_RESET, 1);
-    sleep_ms(100);
-    init_spi();
 
-    //
+    //wait for Tpor
+    sleep_ms(500);
+
+    //send Reset Pulse
+    gpio_put(ADS1299_GPIO_RESET, 0);
+    sleep_us(1);
+    gpio_put(ADS1299_GPIO_RESET, 1);
+    sleep_us(9);
+
+    init_spi();
+    //send SDATAC command to write the registers
+    cs_select();
+    send_command(ADS1299_CMD_SDATAC);
+    write_register(ADS1299_REG_CONFIG3, 0b11101000);
+    sleep_ms(400);
+
+    //write configuration registers
+        //enable CLK output and Set output data rate to 4kSPS
+        write_register(ADS1299_REG_CONFIG1,  0b10110010);
+        //test signals generated internally
+        write_register(ADS1299_REG_CONFIG2,  0b11010000);
+        //close SRB1 swithces
+        write_register(ADS1299_REG_MISC1, 0b00100000);
+    //TODO
+    //START data transmission
+    send_command(ADS1299_CMD_RDATAC);
+    
+
+   
+
+    
     //initialize start pin
     gpio_init(5);
     gpio_set_dir(5,GPIO_OUT);
     
-    cs_select();
+   
 }     
+
+//__________________________________________________________________________
+//BESP12E
+#define ESP12F_PIN_TX 16
+#define ESP12F_PIN_RX 17
+#define ESP12F_PIN_EN 18
+#define ESP12F_PIN_CS 19
+#define ESP12F_PIN_CLK 26
+#define ESP12F_PIN_MOSI 27
+#define ESP12F_PIN_MISO 28
+void ESP12F_init_uart(){
+    uart_init(uart0, 115200);
+
+    gpio_set_function(ESP12F_PIN_TX, GPIO_FUNC_UART);
+    gpio_set_function(ESP12F_PIN_RX, GPIO_FUNC_UART);
+
+}
+
+void ESP12F_init_spi() {
+    spi_init(spi1, 4000000);  // Set SPI clock to 1 MHz
+    gpio_set_function(ESP12F_PIN_CLK, GPIO_FUNC_SPI);
+    gpio_set_function(ESP12F_PIN_MOSI, GPIO_FUNC_SPI);
+    gpio_set_function(ESP12F_PIN_MISO, GPIO_FUNC_SPI);
+    bi_decl(bi_3pins_with_func(ESP12F_PIN_CLK, ESP12F_PIN_MOSI, ESP12F_PIN_MISO, GPIO_FUNC_SPI));
+
+    gpio_init(ESP12F_PIN_CS);
+    gpio_set_dir(ESP12F_PIN_CS,GPIO_OUT);
+    gpio_put(ESP12F_PIN_CS, 1);
+
+    bi_decl(bi_1pin_with_name(ESP12F_PIN_CS, "SPI CS"));
+    spi_set_format( spi0, 8, 0, 1, SPI_MSB_FIRST);
+}
+
+
+void ESP12F_write(uint8_t *data){
+    uart_write_blocking(uart0, data, sizeof(data));
+}
+void ESP12F_read(uint8_t *data, uint8_t len){
+    uart_read_blocking(uart0, data, len);
+}
+
+//_____________________________________________________________________________
+//BSDCARD
+
 
 
 
@@ -269,6 +346,7 @@ int main() {
     stdio_init_all();
     ads1299_init();
     max17048_init();
+    init_uart();
     
 
     while (true) {
@@ -280,3 +358,11 @@ int main() {
     }
     return 0;
 }
+
+
+/*
+TODO List
+1. Continuous Reading from ADS1299, activated b DRDY pin
+2. Writing to SD Card
+3. Transfering to WIFI Card
+*/
