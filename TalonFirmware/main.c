@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "pico/multicore.h"
@@ -5,34 +6,26 @@
 #include "hardware/spi.h"
 #include "hardware/pio.h"
 #include "hardware/uart.h"
+#include "sd_card.h"
+#include "ff.h"
 #include <stdint.h>
 
-//SD Card
-//battery sensor
-//ads1299
-//wifi
-/* ------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+/*___________________________________________________________________________________________________________________
+MAX17048
 */
-//Hardware Controller definitions
-#define BS_I2C i2c1
-
-
+#define MAX17048_ADDRESS 0x36
 
 //Pin Defitions
 #define BS_DIO 22
 #define BS_SCL 23
 #define BS_ALRT 24
-
-
-
-/*___________________________________________________________________________________________________________________
-BMAX17048
-*/
-#define MAX17048_ADDRESS 0x36
-//function to handle alerts for the battery sensor
-
-
-
 
 
 //ALERT Codes
@@ -42,12 +35,12 @@ BMAX17048
 #define OVERVOLTAGE_ALRT 0
 #define UNDERVOLTAGE_ALRT 1
 
-void max17048_alert_handler(){
+void MAX17048_alert_handler(){
     
     uint8_t status_register[] = { 0x1A };
     uint8_t status_data[2];
-    i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, status_register, 1, true);
-    i2c_read_blocking(BS_I2C, MAX17048_ADDRESS, status_data, 2, false);
+    i2c_write_blocking(i2c1, MAX17048_ADDRESS, status_register, 1, true);
+    i2c_read_blocking(i2c1, MAX17048_ADDRESS, status_data, 2, false);
     uint8_t data = status_data[0];
     bool result[] = {
         (data >> 1)%2,
@@ -59,13 +52,13 @@ void max17048_alert_handler(){
     //TODO make this show something 
     
 }
-void max17048_reset() {
+void MAX17048_reset() {
     uint8_t reset_cmd[] = {0xFE, 0x54,0x00};
-    i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, reset_cmd, 3, false);
+    i2c_write_blocking(i2c1, MAX17048_ADDRESS, reset_cmd, 3, false);
 }
-void max17048_init() {
+void MAX17048_init() {
     // Initialize I2C
-    i2c_init(BS_I2C, 100 * 1000);
+    i2c_init(i2c1, 100 * 1000);
     
    //set the function of the T2c pins
     gpio_set_function(BS_DIO, GPIO_FUNC_I2C);
@@ -83,40 +76,46 @@ void max17048_init() {
     gpio_set_irq_enabled(BS_ALRT, GPIO_IRQ_EDGE_FALL, true);
 
     // Register the interrupt handler function
-    irq_set_exclusive_handler(GPIO_IRQ_EDGE_FALL, max17048_alert_handler);
+    irq_set_exclusive_handler(GPIO_IRQ_EDGE_FALL, MAX17048_alert_handler);
 
     // Enable interrupts for the GPIO pin
     irq_set_enabled(GPIO_IRQ_EDGE_FALL, true);
 }
 
-float max17048_read_voltage() {
+float MAX17048_read_voltage() {
     uint8_t voltage_register[] = { 0x02 };
     uint8_t voltage_data[2];
-    i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, voltage_register, 1, true);
-    i2c_read_blocking(BS_I2C, MAX17048_ADDRESS, voltage_data, 2, false);
+    i2c_write_blocking(i2c1, MAX17048_ADDRESS, voltage_register, 1, true);
+    i2c_read_blocking(i2c1, MAX17048_ADDRESS, voltage_data, 2, false);
 
     uint16_t voltage_raw = (voltage_data[0] << 8) | voltage_data[1];
     return ((float)voltage_raw * 1.25) / 1000.0;
 }
 
-float max17048_read_charge() {
+float MAX17048_read_charge() {
     uint8_t soc_register[] = { 0x04 };
     uint8_t soc_data[2];
-    i2c_write_blocking(BS_I2C, MAX17048_ADDRESS, soc_register, 1, true);
-    i2c_read_blocking(BS_I2C, MAX17048_ADDRESS, soc_data, 2, false);
+    i2c_write_blocking(i2c1, MAX17048_ADDRESS, soc_register, 1, true);
+    i2c_read_blocking(i2c1, MAX17048_ADDRESS, soc_data, 2, false);
 
     uint16_t soc_raw = (soc_data[0] << 8) | soc_data[1];
     return (float)soc_raw / 256.0;
 }
 
 /*___________________________________________________________________________________________________________________
-BADS1299
+ADS1299
 */
 
 //define ADS1299 pins
 #define ADS1299_GPIO_RESET 6
 #define ADS1299_GPIO_CS 4
 #define ADS1299_GPIO_START 5
+#define ADS1299_GPIO_DRDY 1
+
+#define ADS1299_GPIO_MISO 0
+#define ADS1299_GPIO_SCLK 2
+#define ADS1299_GPIO_MOSI 7
+
 // Define ADS1299 register addresses
 #define ADS1299_CHANNELS 8
 
@@ -143,7 +142,7 @@ BADS1299
 
 #define ADS1299_REG_MISC1         0x15
 
-// Define other register addresses...
+
 
 // Define ADS1299 command codes
 #define ADS1299_CMD_WAKEUP     0x02
@@ -160,46 +159,42 @@ BADS1299
 #define WRITE_BIT 0x40
 
 // Define other command codes...
-static inline void cs_select() {
-    
+static inline void ADS1299_cs_select() {
     gpio_put(4, 0);  // Active low
-    
 }
 
-static inline void cs_deselect() {
-   
+static inline void ADS1299_cs_deselect() {
     gpio_put(4, 1);
-    
 }
 
 // Initialize the SPI interface
-void init_spi() {
-    spi_init(spi0, 4000000);  // Set SPI clock to 1 MHz
-    gpio_set_function(0, GPIO_FUNC_SPI);
-    gpio_set_function(2, GPIO_FUNC_SPI);
-    gpio_set_function(7, GPIO_FUNC_SPI);
-    bi_decl(bi_3pins_with_func(0, 7, 2, GPIO_FUNC_SPI));
+void ADS1299_init_spi() {
+    spi_init(spi0, 4000000);  // Set SPI clock to 4 MHz
+    gpio_set_function(ADS1299_GPIO_MISO, GPIO_FUNC_SPI);
+    gpio_set_function(ADS1299_GPIO_SCLK, GPIO_FUNC_SPI);
+    gpio_set_function(ADS1299_GPIO_MOSI, GPIO_FUNC_SPI);
+    
 
-    gpio_init(4);
-    gpio_set_dir(4,GPIO_OUT);
-    gpio_put(4, 1);
+    gpio_init(ADS1299_GPIO_CS);
+    gpio_set_dir(ADS1299_GPIO_CS,GPIO_OUT);
+    gpio_put(ADS1299_GPIO_CS, 1);
 
-    bi_decl(bi_1pin_with_name(1, "SPI CS"));
+   
     spi_set_format( spi0, 8, 0, 1, SPI_MSB_FIRST);
 }
 
 
 
-// Send a command to the ADS1299
-void send_command(uint8_t cmd) {
+
+void ADS1299_send_command(uint8_t cmd) {
     uint8_t tx_data[1] = { cmd };
     uint8_t rx_data[1];
     spi_write_read_blocking(spi0, tx_data, rx_data, 1);
 }
 
-//TODO finish read and write functions based on WREG and RREG command.
-// Read a register value from the ADS1299
-uint8_t read_register(uint8_t reg_addr) {
+
+
+uint8_t ADS1299_read_register(uint8_t reg_addr) {
     reg_addr |= READ_BIT;
     uint8_t tx_data[3] = { reg_addr, 0x00, 0x00 };
     uint8_t rx_data[3];
@@ -209,7 +204,7 @@ uint8_t read_register(uint8_t reg_addr) {
     return rx_data[2];
 }
 
-void read_consecutive_registers( uint8_t reg_addr, uint8_t len, uint8_t *read_buf ){
+void ADS1299_read_consecutive_registers( uint8_t reg_addr, uint8_t len, uint8_t *read_buf ){
     reg_addr |= READ_BIT;
     uint8_t tx_data[len+2];
     tx_data[0] = reg_addr;
@@ -218,7 +213,7 @@ void read_consecutive_registers( uint8_t reg_addr, uint8_t len, uint8_t *read_bu
     spi_write_read_blocking(spi0, tx_data, read_buf, len+2);
 }
 
-void write_consecutive_registers( uint8_t reg_addr, uint8_t *data){
+void ADS1299_write_consecutive_registers( uint8_t reg_addr, uint8_t *data){
     reg_addr |= WRITE_BIT;
     uint8_t len = sizeof(data);
     uint8_t tx_data[len+2];
@@ -228,7 +223,7 @@ void write_consecutive_registers( uint8_t reg_addr, uint8_t *data){
     spi_write_read_blocking(spi0, tx_data, rx_data, len+2); 
 }
 // Write a register value to the ADS1299
-void write_register(uint8_t reg_addr, uint8_t reg_val) {
+void ADS1299_write_register(uint8_t reg_addr, uint8_t reg_val) {
     reg_addr |= WRITE_BIT;
     uint8_t tx_data[3] = { reg_addr,0x00,reg_val };
     uint8_t rx_data[3];
@@ -241,8 +236,8 @@ void write_register(uint8_t reg_addr, uint8_t reg_val) {
 
 //when start goes high, drdy will go high, then drop after Tsettle, then will start indicating data ready. 
 bool first_drdy_fall_detected = false;
-void start_continuous_data(){
-    send_command(ADS1299_CMD_RDATAC);
+void ADS1299_start_continuous_data(){
+    ADS1299_send_command(ADS1299_CMD_RDATAC);
     gpio_put(ADS1299_GPIO_START, 1);
     first_drdy_fall_detected = false;
 }
@@ -250,13 +245,13 @@ void start_continuous_data(){
 //TODO add interrupt handler when DRDY pin goes low
 
 
-void read_data(uint8_t *data){
-    //STATUS BYTE + 8-channel 
-    spi_read_blocking(spi0, 0x00, data, ADS1299_CHANNELS + 1);
+void ADS1299_read_data(uint8_t *data){
+    //STATUS BYTE + channels
+    spi_read_blocking(spi0, 0x00, data, 3*ADS1299_CHANNELS + 3);
 }
 
 
-void ads1299_init() {
+void ADS1299_init() {
     //initialize RESET pin and set RESET pin to 1
     gpio_init(ADS1299_GPIO_RESET);
     gpio_set_dir(ADS1299_GPIO_RESET, GPIO_OUT);
@@ -271,23 +266,23 @@ void ads1299_init() {
     gpio_put(ADS1299_GPIO_RESET, 1);
     sleep_us(9);
 
-    init_spi();
+    ADS1299_init_spi();
     //send SDATAC command to write the registers
-    cs_select();
-    send_command(ADS1299_CMD_SDATAC);
-    write_register(ADS1299_REG_CONFIG3, 0b11101000);
+    ADS1299_cs_select();
+    ADS1299_send_command(ADS1299_CMD_SDATAC);
+    ADS1299_write_register(ADS1299_REG_CONFIG3, 0b11101000);
     sleep_ms(400);
 
     //write configuration registers
         //enable CLK output and Set output data rate to 4kSPS
-        write_register(ADS1299_REG_CONFIG1,  0b10110010);
+        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10110010);
         //test signals generated internally
-        write_register(ADS1299_REG_CONFIG2,  0b11010000);
+        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010000);
         //close SRB1 swithces
-        write_register(ADS1299_REG_MISC1, 0b00100000);
+        ADS1299_write_register(ADS1299_REG_MISC1, 0b00100000);
     //TODO
     //START data transmission
-    send_command(ADS1299_CMD_RDATAC);
+    ADS1299_send_command(ADS1299_CMD_RDATAC);
     
 
    
@@ -298,7 +293,8 @@ void ads1299_init() {
     gpio_set_dir(5,GPIO_OUT);
     
    
-}     
+}  
+  
 
 //__________________________________________________________________________
 //BESP12E
@@ -322,65 +318,125 @@ void ESP12F_init_spi() {
     gpio_set_function(ESP12F_PIN_CLK, GPIO_FUNC_SPI);
     gpio_set_function(ESP12F_PIN_MOSI, GPIO_FUNC_SPI);
     gpio_set_function(ESP12F_PIN_MISO, GPIO_FUNC_SPI);
-    bi_decl(bi_3pins_with_func(ESP12F_PIN_CLK, ESP12F_PIN_MOSI, ESP12F_PIN_MISO, GPIO_FUNC_SPI));
+    
 
     gpio_init(ESP12F_PIN_CS);
     gpio_set_dir(ESP12F_PIN_CS,GPIO_OUT);
     gpio_put(ESP12F_PIN_CS, 1);
 
-    bi_decl(bi_1pin_with_name(ESP12F_PIN_CS, "SPI CS"));
+ 
     spi_set_format( spi0, 8, 0, 1, SPI_MSB_FIRST);
 }
-
-
-void ESP12F_write(uint8_t *data){
+inline void ESP12F_send_ADS_data(uint8_t* data){
+    spi_write_blocking(spi1, data, 3*ADS1299_CHANNELS + 4);
+}
+void ESP12F_init(){
+    ESP12F_init_uart();
+    ESP12F_init_spi();
+}
+void ESP12F_write_uart(uint8_t *data){
     uart_write_blocking(uart0, data, sizeof(data));
 }
-void ESP12F_read(uint8_t *data, uint8_t len){
+void ESP12F_read_uart(uint8_t *data, uint8_t len){
     uart_read_blocking(uart0, data, len);
 }
-//function on other core to send data to ESP12F
-void ESP12F_send_data(){
 
-}
 //_____________________________________________________________________________
 //BSDCARD
+FRESULT fr;
+FATFS fs;
+FIL fil;
+char filename[] = "data.txt";
+void SDCARD_init(){
+    
+    int ret;
+    char buf[100];
+    
+
+    if(!sd_init_driver()){
+        printf("ERROR: Could not initialize SD Card \r\n");
+        sleep_ms(10000);
+    }
+
+    fr = f_mount(&fs, "0:", 1);
+    if(fr != FR_OK){
+        printf("ERROR: COULD not mount filesystem");
+    }
+
+   
+}
+
+void SDCARD_write_data(){
+    fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
+    f_printf(&fil, "stuff");
+    f_close(&fil);
+}
+//________________________________________________________________________________
+
+uint8_t data[3*ADS1299_CHANNELS + 4];
+
+//commands
+#define CMD_CORE1_SEND_DATA 0
 
 
 void core1_interrupt_handler(){
-
+    uint8_t command = multicore_fifo_pop_blocking();
+    
+    //command to send data
+    if (command == CMD_CORE1_SEND_DATA){
+        ESP12F_send_ADS_data(data);
+    }
+    multicore_fifo_clear_irq(); //clear interrupt
 }
 // multi core code
 void core1_main() {
-    while (1) {
 
+    //configure core 1 interrupt
+    multicore_fifo_clear_irq();
+    irq_set_exclusive_handler(SIO_IRQ_PROC1, core1_interrupt_handler);
+    irq_set_enabled(SIO_IRQ_PROC1, true);
+
+
+
+    while (1) {
+        // a function that keeps this infinite while loop running so that it doesn't take up much energy
+        tight_loop_contents();
     }
 }
-void read_ADS1299_data(){
-    if(first_drdy_fall_detected = false)
+
+
+
+//function that runs when DRDY goes low
+void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
+    
+    //first DRDY drop indicates that adc is settling. The second drop indicates that data is ready.
+    if(!first_drdy_fall_detected)
         return;
     first_drdy_fall_detected = true;
-    uint8_t data[ADS1299_CHANNELS + 2];
-    read_data(data);
+
+    ADS1299_read_data(data);
     //set final byte to state of charge
-    data[ADS1299_CHANNELS + 1] = max17048_read_charge();
-    multicore_fifo_push_blocking(0);
-    
-    
+    data[3*ADS1299_CHANNELS + 3] = MAX17048_read_charge();
+    multicore_fifo_push_blocking(CMD_CORE1_SEND_DATA);
 }
 
 
 int main() {
     stdio_init_all();
-    ads1299_init();
-    max17048_init();
+
+    multicore_launch_core1(core1_main);
+
+    ADS1299_init();
+    MAX17048_init();
+    ESP12F_init();
     
-    multicore_reset_core1();
-    multicore_launch_core1(core1_main());
+    gpio_set_irq_enabled_with_callback(ADS1299_GPIO_DRDY,  GPIO_IRQ_EDGE_FALL, true, &ADS1299_drdy_interrupt);
+  
+    ADS1299_start_continuous_data();
 
     while (true) {
-        float voltage = max17048_read_voltage();
-        float soc = max17048_read_charge();
+        float voltage = MAX17048_read_voltage();
+        float soc = MAX17048_read_charge();
 
         //printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
         sleep_ms(1000);
@@ -391,8 +447,11 @@ int main() {
 
 /*
 TODO List
-1. Continuous Reading from ADS1299, activated by DRDY pin ????
-2. Writing to SD Card   All Good
-3. Transfering to WIFI Card
-4. ESP8266 Firmware
+
+1. Writing to SD Card 
+2. ESP8266 Firmware
+3. ANDROID APP
+4. Communication between ESP8266 and two cores
+    1. UART interrupts and commands
+    2. FIFO Commands
 */

@@ -24,3 +24,6 @@ target_link_libraries(${PROJECT_NAME}
 	hardware_uart
 	FatFs_SPI
 )
+
+pico_enable_stdio_usb(${PROJECT_NAME} 0)
+pico_enable_stdio_uart(${PROJECT_NAME} 1)

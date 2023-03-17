@@ -1,23 +1,32 @@
 CMakeFiles\TalonFirmware.dir\main.c.obj: \
  C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\main.c \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/types.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/assert.h \
- c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h \
- c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\assert.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\stdio.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\_ansi.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\newlib.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\_newlib_version.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\config.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\machine\ieeefp.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\features.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\cdefs.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\machine\_default_types.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\reent.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\_ansi.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\_types.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\machine\_types.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\lock.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\stdio.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_stdlib\include/pico/stdlib.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/types.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/assert.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h \
+ c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\assert.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\stdint.h \
- c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\machine\_default_types.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\_stdint.h \
- c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h \
  C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\build\generated\pico_base/pico/version.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/config.h \
  C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\build\generated\pico_base/pico/config_autogen.h \
@@ -27,7 +36,6 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/addressmap.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/sio.h \
- c:\progra~2\arm\ gnu\ toolchain\ arm-none-eabi\12.2\ rel1\arm-none-eabi\include\sys\cdefs.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_base\include/pico/error.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\pico_stdio\include/pico/stdio.h \
@@ -55,6 +63,13 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/defs.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/structure.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/code.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\pico_multicore\include/pico/multicore.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_sync\include/pico/sync.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_sync\include/pico/sem.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_sync\include/pico/lock_core.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include/hardware/sync.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_sync\include/pico/mutex.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_sync\include/pico/critical_section.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\include/hardware/i2c.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/i2c.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
@@ -64,4 +79,11 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pio.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pio.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio_instructions.h
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio_instructions.h \
+ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver/sd_card.h \
+ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source/ff.h \
+ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source/ffconf.h \
+ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver/spi.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include/hardware/dma.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/dma.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dma.h
