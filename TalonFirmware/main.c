@@ -1,5 +1,6 @@
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
+#include "pico/multicore.h"
 #include "hardware/i2c.h"
 #include "hardware/spi.h"
 #include "hardware/pio.h"
@@ -14,8 +15,7 @@
 */
 //Hardware Controller definitions
 #define BS_I2C i2c1
-#define SD__SPI
-#define ADS_SPI 
+
 
 
 //Pin Defitions
@@ -247,10 +247,14 @@ void start_continuous_data(){
     first_drdy_fall_detected = false;
 }
 
+//TODO add interrupt handler when DRDY pin goes low
+
+
 void read_data(uint8_t *data){
     //STATUS BYTE + 8-channel 
     spi_read_blocking(spi0, 0x00, data, ADS1299_CHANNELS + 1);
 }
+
 
 void ads1299_init() {
     //initialize RESET pin and set RESET pin to 1
@@ -335,19 +339,44 @@ void ESP12F_write(uint8_t *data){
 void ESP12F_read(uint8_t *data, uint8_t len){
     uart_read_blocking(uart0, data, len);
 }
+//function on other core to send data to ESP12F
+void ESP12F_send_data(){
 
+}
 //_____________________________________________________________________________
 //BSDCARD
 
 
+void core1_interrupt_handler(){
+
+}
+// multi core code
+void core1_main() {
+    while (1) {
+
+    }
+}
+void read_ADS1299_data(){
+    if(first_drdy_fall_detected = false)
+        return;
+    first_drdy_fall_detected = true;
+    uint8_t data[ADS1299_CHANNELS + 2];
+    read_data(data);
+    //set final byte to state of charge
+    data[ADS1299_CHANNELS + 1] = max17048_read_charge();
+    multicore_fifo_push_blocking(0);
+    
+    
+}
 
 
 int main() {
     stdio_init_all();
     ads1299_init();
     max17048_init();
-    init_uart();
     
+    multicore_reset_core1();
+    multicore_launch_core1(core1_main());
 
     while (true) {
         float voltage = max17048_read_voltage();
@@ -362,7 +391,8 @@ int main() {
 
 /*
 TODO List
-1. Continuous Reading from ADS1299, activated b DRDY pin
-2. Writing to SD Card
+1. Continuous Reading from ADS1299, activated by DRDY pin ????
+2. Writing to SD Card   All Good
 3. Transfering to WIFI Card
+4. ESP8266 Firmware
 */

@@ -60,4 +60,8 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/i2c.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pio.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pio.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio_instructions.h

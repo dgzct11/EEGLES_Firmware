@@ -1,3 +1,0 @@
-C:/DavidZaha/Programming/Github/EEGLES_Firmware/build/pioasm/CMakeFiles/pioasm.dir
-C:/DavidZaha/Programming/Github/EEGLES_Firmware/build/pioasm/CMakeFiles/edit_cache.dir
-C:/DavidZaha/Programming/Github/EEGLES_Firmware/build/pioasm/CMakeFiles/rebuild_cache.dir

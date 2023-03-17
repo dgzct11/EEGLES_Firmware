@@ -691,10 +691,24 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c" -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c"
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -MF CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj.d -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj -c "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c"
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c" > CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.i
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c" -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.s
+
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -MF CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj.d -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj -c "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c"
 
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.i: cmake_force
@@ -708,7 +722,7 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -MF CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c"
 
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.i: cmake_force
@@ -722,7 +736,7 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -MF CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c"
 
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.i: cmake_force
@@ -732,6 +746,216 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c" -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj -MF CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj.d -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj -c C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c > CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+
+CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c -o CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c"
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -MF CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj.d -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -c "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c"
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c" > CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c" -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: CMakeFiles\TalonFirmware.dir\flags.make
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c"
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: CMakeFiles\TalonFirmware.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj -MF CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj.d -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj -c "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c"
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c" > CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+
+CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TalonFirmware.dir/C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
+	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c" -o CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
 
 # Object files for target TalonFirmware
 TalonFirmware_OBJECTS = \
@@ -781,9 +1005,25 @@ TalonFirmware_OBJECTS = \
 "CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj" \
 "CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj" \
 "CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj" \
+"CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj" \
 "CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj" \
 "CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj" \
-"CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj"
+"CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj" \
+"CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj" \
+"CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj" \
+"CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj"
 
 # External object files for target TalonFirmware
 TalonFirmware_EXTERNAL_OBJECTS =
@@ -834,13 +1074,29 @@ TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\pico_multicore\multicore.c.obj
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.obj
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\build.make
 TalonFirmware.elf: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
 TalonFirmware.elf: CMakeFiles\TalonFirmware.dir\objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX executable TalonFirmware.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX executable TalonFirmware.elf"
 	"C:\PROGRA~2\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-g++.exe" -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=TalonFirmware.elf.map "-Wl,--script=C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld" -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--no-warn-rwx-segments -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles\TalonFirmware.dir\objects1 -o TalonFirmware.elf  pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S 
 	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-objcopy.exe" -Oihex C:/DavidZaha/Programming/Github/EEGLES_Firmware/build/TalonFirmware.elf TalonFirmware.hex
 	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\bin\arm-none-eabi-objcopy.exe" -Obinary C:/DavidZaha/Programming/Github/EEGLES_Firmware/build/TalonFirmware.elf TalonFirmware.bin
