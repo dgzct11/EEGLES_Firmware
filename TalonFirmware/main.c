@@ -294,6 +294,8 @@ void ADS1299_init() {
     
    
 }  
+
+uint8_t data[3*ADS1299_CHANNELS + 4];
   
 
 //__________________________________________________________________________
@@ -363,21 +365,32 @@ void SDCARD_init(){
         printf("ERROR: COULD not mount filesystem");
     }
 
+    f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
    
 }
 
 void SDCARD_write_data(){
-    fr = f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
-    f_printf(&fil, "stuff");
+    
+    for(uint8_t i = 0; i < sizeof(data); i++){
+        f_putc(data[i], &fil);
+    }
+    
+}
+void SDCARD_close_file(){
     f_close(&fil);
 }
 //________________________________________________________________________________
 
-uint8_t data[3*ADS1299_CHANNELS + 4];
+
+
+
 
 //commands
 #define CMD_CORE1_SEND_DATA 0
 
+//states
+bool write_to_sd_card = false;
+bool send_to_esp12f = true;
 
 void core1_interrupt_handler(){
     uint8_t command = multicore_fifo_pop_blocking();
@@ -417,7 +430,13 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
     ADS1299_read_data(data);
     //set final byte to state of charge
     data[3*ADS1299_CHANNELS + 3] = MAX17048_read_charge();
-    multicore_fifo_push_blocking(CMD_CORE1_SEND_DATA);
+
+    if(send_to_esp12f){
+        multicore_fifo_push_blocking(CMD_CORE1_SEND_DATA);
+    }
+    if(write_to_sd_card){
+        SDCARD_write_data();
+    }
 }
 
 
@@ -448,7 +467,6 @@ int main() {
 /*
 TODO List
 
-1. Writing to SD Card 
 2. ESP8266 Firmware
 3. ANDROID APP
 4. Communication between ESP8266 and two cores
