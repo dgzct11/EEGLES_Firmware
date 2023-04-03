@@ -38,11 +38,15 @@ void setup() {
   }
 
   //setup SPI communication
-
+  SPI.begin();
+  
 
 }
 
 void loop() {
   Serial.printf("Number of connected devices (stations) = %d\n", WiFi.softAPgetStationNum());
   delay(3000);
+  //read data from ads
+  //send data over wifi
+
 }
