@@ -10,6 +10,7 @@
 #define MOSI 25
 #define MISO 24
 #define CS   23
+#define ADS_CHANNELS 6
 
 /* Your WiFi Soft Access Point settings */
 const char* ssid = "ESP8266";          //this will be the network name
@@ -59,7 +60,7 @@ void setup() {
 ISR (SPI_STC_vect) {
   byte n = SPDR;
 
-  if (pos < 28) // 3 bytes for each of the 8 channels + 1 byte for contact data + 3 bytes for battery sensor
+  if (pos < 3*ADS_CHANNELS + 4) // 3 bytes for each of the 6 channels + 3 bytes for status data + 1 byte for battery sensor
     buf [pos++] = n;
   else
     received = true;
