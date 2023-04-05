@@ -437,7 +437,7 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
         multicore_fifo_push_blocking(CMD_CORE1_SEND_DATA);
     }
     if(write_to_sd_card){
-        SDCARD_write_data();
+        //SDCARD_write_data();
     }
 }
 
