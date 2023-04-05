@@ -6,6 +6,11 @@
 #include <ESP8266WiFi.h>
 #include <SPI.h>
 
+#define SCLK 22
+#define MOSI 25
+#define MISO 24
+#define CS   23
+
 /* Your WiFi Soft Access Point settings */
 const char* ssid = "ESP8266";          //this will be the network name
 const char* password = "ESP8266Test";  //this will be the network password
@@ -38,15 +43,37 @@ void setup() {
   }
 
   //setup SPI communication
-  SPI.begin();
+  SPI.begin(4000000);
   
+  pinMode(MOSI, INPUT);
 
+  // turn on SPI in slave mode
+  SPCR |= _BV(SPE);
+  SPI.attachInterrupt();
+
+  pos = 0;
+  received = false;
+}
+
+// The value from master is taken from SPDR and stored in Slavereceived
+ISR (SPI_STC_vect) {
+  byte n = SPDR;
+
+  if (pos < 28) // 3 bytes for each of the 8 channels + 1 byte for contact data + 3 bytes for battery sensor
+    buf [pos++] = n;
+  else
+    received = true;
 }
 
 void loop() {
   Serial.printf("Number of connected devices (stations) = %d\n", WiFi.softAPgetStationNum());
   delay(3000);
   //read data from ads
+  if (received) {
+    buf [pos] = 0;
+    pos = 0;
+    received = false;
+  }
   //send data over wifi
 
 }
