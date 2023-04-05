@@ -117,7 +117,7 @@ ADS1299
 #define ADS1299_GPIO_MOSI 7
 
 // Define ADS1299 register addresses
-#define ADS1299_CHANNELS 8
+#define ADS1299_CHANNELS 6
 
 #define ADS1299_REG_ID         0x00
 #define ADS1299_REG_CONFIG1    0x01
@@ -345,6 +345,7 @@ void ESP12F_read_uart(uint8_t *data, uint8_t len){
 
 //_____________________________________________________________________________
 //BSDCARD
+/*
 FRESULT fr;
 FATFS fs;
 FIL fil;
@@ -356,13 +357,13 @@ void SDCARD_init(){
     
 
     if(!sd_init_driver()){
-        printf("ERROR: Could not initialize SD Card \r\n");
+        //printf("ERROR: Could not initialize SD Card \r\n");
         sleep_ms(10000);
     }
 
     fr = f_mount(&fs, "0:", 1);
     if(fr != FR_OK){
-        printf("ERROR: COULD not mount filesystem");
+        //printf("ERROR: COULD not mount filesystem");
     }
 
     f_open(&fil, filename, FA_WRITE | FA_CREATE_ALWAYS);
@@ -379,6 +380,7 @@ void SDCARD_write_data(){
 void SDCARD_close_file(){
     f_close(&fil);
 }
+*/
 //________________________________________________________________________________
 
 
@@ -439,7 +441,8 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
     }
 }
 
-
+float soc; 
+float voltage; 
 int main() {
     stdio_init_all();
 
@@ -454,8 +457,8 @@ int main() {
     ADS1299_start_continuous_data();
 
     while (true) {
-        float voltage = MAX17048_read_voltage();
-        float soc = MAX17048_read_charge();
+        voltage = MAX17048_read_voltage();
+        soc = MAX17048_read_charge();
 
         //printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
         sleep_ms(1000);
