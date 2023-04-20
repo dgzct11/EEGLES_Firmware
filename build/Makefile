@@ -900,6 +900,30 @@ C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardw
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.obj
+
+# target to build an object file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.i: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.i
+
+# target to preprocess a source file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.i
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.s: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.s
+
+# target to generate assembly for a file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.s
+
 C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.obj
 
@@ -1051,6 +1075,30 @@ C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardw
 C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.s
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.obj
+
+# target to build an object file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.i: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.i
+
+# target to preprocess a source file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.i
+
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.s: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.s
+
+# target to generate assembly for a file
+C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
+.PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.s
 
 C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.obj: C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
 .PHONY : C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.obj
@@ -1772,6 +1820,318 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\main.c.s
 .PHONY : main.c.s
 
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.s
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.obj: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.obj
+
+# target to build an object file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.i: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.i
+
+# target to preprocess a source file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.i
+
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.s: no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.s
+
+# target to generate assembly for a file
+no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TalonFirmware.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+.PHONY : no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1875,6 +2235,9 @@ help:
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_dma/dma.obj
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_dma/dma.i
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_dma/dma.s
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_flash/flash.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_flash/flash.s
@@ -1894,6 +2257,9 @@ help:
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_rtc/rtc.obj
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_rtc/rtc.i
+	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_rtc/rtc.s
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.obj
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.i
 	@echo ... C_/Users/David_Zaha/Desktop/2022_school_year/YWISE/pico-sdk/src/rp2_common/hardware_spi/spi.s
@@ -1984,6 +2350,45 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.s
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.obj
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.i
+	@echo ... no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.s
 .PHONY : help
 
 
