@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "NMake Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/CMakeLists.txt"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
   "CMakeFiles/3.25.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
@@ -240,7 +239,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2040/hardware_regs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2040/hardware_structs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
