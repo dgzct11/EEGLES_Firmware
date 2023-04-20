@@ -1804,33 +1804,24 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 
 
 CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\main.c
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: generated\pico_base\pico\version.h
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: generated\pico_base\pico\config_autogen.h
@@ -1840,6 +1831,7 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 schoo
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
+CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h"
@@ -1863,34 +1855,6 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 schoo
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\include\pico\stdio_uart.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_binary_info\include\pico\binary_info.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\defs.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\structure.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\code.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_multicore\include\pico\multicore.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\sync.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\sem.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\lock_core.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\mutex.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\critical_section.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_i2c\include\hardware\i2c.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\i2c.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include\hardware\pio.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\pio.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pio.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include\hardware\pio_instructions.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
 
 
 CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c
@@ -2864,13 +2828,9 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\main.c:
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h:
-
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h:
 
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h:
 
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\diskio.h:
 
@@ -2885,6 +2845,10 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c:
 
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h:
+
+C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h:
+
+C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h:
 
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c:
 
