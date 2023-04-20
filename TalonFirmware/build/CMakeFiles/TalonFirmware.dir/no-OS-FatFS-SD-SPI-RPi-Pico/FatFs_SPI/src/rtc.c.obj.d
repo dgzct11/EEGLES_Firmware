@@ -75,7 +75,7 @@ CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_util\include/pico/util/datetime.h \
  C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source/ff.h \
  C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source/ffconf.h \

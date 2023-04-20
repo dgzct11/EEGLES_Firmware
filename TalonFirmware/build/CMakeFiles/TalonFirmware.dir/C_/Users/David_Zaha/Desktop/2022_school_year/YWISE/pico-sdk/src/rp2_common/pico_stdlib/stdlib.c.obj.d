@@ -50,10 +50,14 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pll\include/hardware/pll.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pll.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pll.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_clocks\include/hardware/clocks.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/clocks.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/clocks.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/defs.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/structure.h \
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/code.h
