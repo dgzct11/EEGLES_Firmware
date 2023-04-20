@@ -1435,53 +1435,6 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h"
 
 
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h"
-
-
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.c"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_flash\include\hardware\flash.h"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
@@ -1748,51 +1701,6 @@ CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h"
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h"
-
-
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\include\hardware\rtc.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\rtc.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\rtc.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_resets\include\hardware\resets.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\resets.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\resets.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_clocks\include\hardware\clocks.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\clocks.h"
-CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\clocks.h"
 
 
 CMakeFiles\TalonFirmware.dir\C_\Users\David_Zaha\Desktop\2022_school_year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c"
@@ -3156,571 +3064,6 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 schoo
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\pio.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pio.h"
 CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include\hardware\pio_instructions.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\main.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_locale.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\strings.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\diskio.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\math.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\stdlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\alloca.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\inttypes.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_locale.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\strings.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\mutex.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\lock_core.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_time\include\pico\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\sem.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\diskio.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.h
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_locale.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\strings.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\mutex.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\lock_core.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_time\include\pico\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\sem.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.h
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_time\include\pico\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_uart\include\hardware\uart.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\mutex.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\lock_core.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\sem.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\errno.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\errno.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include-fixed\limits.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\stdlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\alloca.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_locale.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\strings.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\string.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\f_util.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\ff_stdio.h
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\diskio.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\mutex.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\lock_core.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_time\include\pico\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_sync\include\hardware\sync.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\include\hardware\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\spi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\sem.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h
-
-
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\newlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_newlib_version.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\ieeefp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\features.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\cdefs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_default_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\reent.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\_ansi.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\lock.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\endian.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\_endian.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\select.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_sigset.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_timeval.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\timespec.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_timespec.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_pthreadtypes.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\sched.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_locale.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\include\hardware\rtc.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdbool.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdint.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_intsup.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: generated\pico_base\pico\version.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\config.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: generated\pico_base\pico\config_autogen.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\boards\include\boards\pico.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\types.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_base\include\pico\error.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\rtc.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\rtc.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_time\include\pico\time.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_uart\include\hardware\uart.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_util\include\pico\util\datetime.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\util.h
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\scb.h"
-CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj: C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\rtc.h
 
 
 
@@ -3769,8 +3112,6 @@ CMakeFiles\TalonFirmware.dir\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c.obj
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\lib\tinyusb\src\device\usbd_control.c":
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\assert.h":
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffunicode.c:
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\_locale.h":
 
@@ -3864,8 +3205,6 @@ generated\pico_base\pico\config_autogen.h:
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_sync\include\pico\lock_core.h":
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\rtc.h:
-
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\c++\12.2.1\arm-none-eabi\thumb\v6-m\nofp\bits\os_defines.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\lib\tinyusb\src\common\tusb_debug.h":
@@ -3948,8 +3287,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.h":
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\demo_logging.c:
-
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\usb.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_watchdog\include\hardware\watchdog.h":
@@ -3978,13 +3315,9 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\stdlib.h":
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.h:
-
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\machine\stdlib.h":
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\alloca.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\rtc.c":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\lib\tinyusb\src\tusb.c":
 
@@ -4022,8 +3355,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_claim\include\hardware\claim.h":
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.c:
-
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_clocks\clocks.c":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\clocks.h":
@@ -4037,8 +3368,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\watchdog.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\watchdog.h":
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.c:
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pll\include\hardware\pll.h":
 
@@ -4067,16 +3396,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\dma.c":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include\hardware\dma.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\dma.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dma.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\common\pico_binary_info\include\pico\binary_info\defs.h":
 
@@ -4108,7 +3427,7 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\i2c.h":
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\ff_stdio.c:
+"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_irq\irq.c":
 
@@ -4123,12 +3442,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_timer\timer.c":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_pll\pll.c":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_rtc\include\hardware\rtc.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\rtc.h":
-
-"C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\rtc.h":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_spi\spi.c":
 
@@ -4162,8 +3475,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\hardware_xosc\xosc.c":
 
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\my_debug.h:
-
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_double\double_init_rom.c":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_double\include\pico\double.h":
@@ -4175,8 +3486,6 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_float\float_math.c":
 
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_float\include\pico\float.h":
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\my_debug.c:
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\lib\gcc\arm-none-eabi\12.2.1\include\float.h":
 
@@ -4247,41 +3556,3 @@ C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI
 "C:\Users\David Zaha\Desktop\2022 school year\YWISE\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c":
 
 C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\main.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ff.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffconf.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\spi.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\diskio.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source\ffsystem.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\crc.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_card.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\hw_config.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver\sd_spi.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\f_util.c:
-
-"C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\errno.h":
-
-"C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\12.2 rel1\arm-none-eabi\include\sys\errno.h":
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\f_util.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\ff_stdio.h:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\glue.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\src\rtc.c:
-
-C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\include\util.h:

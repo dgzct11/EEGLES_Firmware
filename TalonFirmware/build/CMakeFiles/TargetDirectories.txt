@@ -165,5 +165,3 @@ C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src
 C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/build/CMakeFiles/edit_cache.dir
-C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/build/CMakeFiles/rebuild_cache.dir

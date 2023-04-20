@@ -635,9 +635,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"path" : "no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

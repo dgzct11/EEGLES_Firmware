@@ -8,8 +8,7 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1,
-						80
+						1
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -1002,17 +1001,6 @@
 					"parentIndex" : 1,
 					"projectIndex" : 1,
 					"source" : "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/docs"
-				},
-				{
-					"build" : "build",
-					"jsonFile" : "directory-build-Debug-6c163d3171c627ec80fb.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.25"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI"
 				}
 			],
 			"name" : "Debug",
@@ -1025,8 +1013,7 @@
 					],
 					"directoryIndexes" : 
 					[
-						0,
-						80
+						0
 					],
 					"name" : "TalonFirmware",
 					"targetIndexes" : 
@@ -1149,7 +1136,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TalonFirmware::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TalonFirmware-Debug-fc089cd93bf395d589ec.json",
+					"jsonFile" : "target-TalonFirmware-Debug-e7b1a6b15885ad41bf00.json",
 					"name" : "TalonFirmware",
 					"projectIndex" : 0
 				},

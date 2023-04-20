@@ -79,11 +79,4 @@ CMakeFiles\TalonFirmware.dir\main.c.obj: \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/pio.h \
  C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/pio.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio_instructions.h \
- C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver/sd_card.h \
- C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source/ff.h \
- C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\ff15\source/ffconf.h \
- C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\no-OS-FatFS-SD-SPI-RPi-Pico\FatFs_SPI\sd_driver/spi.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_dma\include/hardware/dma.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/dma.h \
- C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dma.h
+ C:\Users\DAVIDZ~1\Desktop\2022\ school\ year\YWISE\pico-sdk\src\rp2_common\hardware_pio\include/hardware/pio_instructions.h

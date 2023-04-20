@@ -12,7 +12,7 @@ add_executable(${PROJECT_NAME}
 	main.c
 )
 
-add_subdirectory(no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)
+
 pico_add_extra_outputs(${PROJECT_NAME})
 
 target_link_libraries(${PROJECT_NAME}
@@ -22,7 +22,6 @@ target_link_libraries(${PROJECT_NAME}
 	hardware_spi
 	hardware_pio
 	hardware_uart
-	FatFs_SPI
 )
 
 pico_enable_stdio_usb(${PROJECT_NAME} 1)

@@ -6,8 +6,8 @@
 #include "hardware/spi.h"
 #include "hardware/pio.h"
 #include "hardware/uart.h"
-#include "sd_card.h"
-#include "ff.h"
+
+
 #include <stdint.h>
 
 
@@ -134,13 +134,13 @@ ADS1299
 #define ADS1299_REG_CH6SET    0x0a
 #define ADS1299_REG_CH7SET    0x0b
 #define ADS1299_REG_CH8SET    0x0c
-#define ADS1299_REG_BIAS_SENSP    0x09
-#define ADS1299_REG_BIAS_SENSN    0x0a
-#define ADS1299_REG_LOFF_SENSP    0x0b
-#define ADS1299_REG_LOFF_SENSN    0x0c
-#define ADS1299_REG_LOFF_FLIP    0x0c
-#define ADS1299_REG_LOFF_STATP    0x0c
-#define ADS1299_REG_LOFF_STATN    0x0c
+#define ADS1299_REG_BIAS_SENSP    0x0d
+#define ADS1299_REG_BIAS_SENSN    0x0e
+#define ADS1299_REG_LOFF_SENSP    0x0f
+#define ADS1299_REG_LOFF_SENSN    0x10
+#define ADS1299_REG_LOFF_FLIP    0x11
+#define ADS1299_REG_LOFF_STATP    0x12
+#define ADS1299_REG_LOFF_STATN    0x13
 
 #define ADS1299_REG_MISC1         0x15
 
@@ -157,12 +157,29 @@ ADS1299
 #define ADS1299_CMD_SDATAC     0x11
 #define ADS1299_CMD_RDATA      0x12
 
+#define ADS1299_VREF 4.5
+#define ADS1299_GAIN 24
+
 #define READ_BIT 0x20
 #define WRITE_BIT 0x40
 
+uint8_t data[3*ADS1299_CHANNELS + 4];
+  
+float data_to_voltage( uint8_t channel){
+    uint32_t raw = (data[channel*3] << 16) | (data[channel*3+1]<<8) | (data[channel*3+2]); 
+    if(raw << 23 == 0) {
+        return ((float)raw) * ADS1299_VREF/ADS1299_GAIN/0x800000;
+    }
+    else {
+        raw = 0x1000000 - raw;
+        return -((float)raw) * ADS1299_VREF/ADS1299_GAIN/0x800000;
+    }
+   
+}  
+
 // Define other command codes...
 static inline void ADS1299_cs_select() {
-    gpio_put(4, 0);  // Active low
+    gpio_put(ADS1299_GPIO_CS, 0);  // Active low
 }
 
 static inline void ADS1299_cs_deselect() {
@@ -179,7 +196,7 @@ void ADS1299_init_spi() {
 
     gpio_init(ADS1299_GPIO_CS);
     gpio_set_dir(ADS1299_GPIO_CS,GPIO_OUT);
-    gpio_put(ADS1299_GPIO_CS, 1);
+    gpio_put(ADS1299_GPIO_CS, 0);
 
    
     spi_set_format( spi0, 8, 0, 1, SPI_MSB_FIRST);
@@ -198,13 +215,15 @@ void ADS1299_send_command(uint8_t cmd) {
 
 uint8_t ADS1299_read_register(uint8_t reg_addr) {
     reg_addr |= READ_BIT;
-    uint8_t tx_data[3] = { reg_addr, 0x00, 0x00 };
+    uint8_t tx_data[3] = { reg_addr, 0x00, 0x00};
     uint8_t rx_data[3];
     
     spi_write_read_blocking(spi0, tx_data, rx_data, 3);
    
     return rx_data[2];
 }
+
+
 
 void ADS1299_read_consecutive_registers( uint8_t reg_addr, uint8_t len, uint8_t *read_buf ){
     reg_addr |= READ_BIT;
@@ -276,19 +295,30 @@ void ADS1299_init() {
     sleep_ms(400);
 
     //write configuration registers
-        //enable CLK output and Set output data rate to 4kSPS
-        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10110010);
-        //test signals generated internally
-        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010000);
+
+        //enable CLK output and Set output data rate to 250SPS
+        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10110110);
+
+        //Bias Settings
+        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b01101000);
+        
         //close SRB1 swithces
         ADS1299_write_register(ADS1299_REG_MISC1, 0b00100000);
-    //TODO
-    //START data transmission
-    ADS1299_send_command(ADS1299_CMD_RDATAC);
+
+        //close BIASP switches
+        ADS1299_write_register(ADS1299_REG_BIAS_SENSP, 0b11111111);
+
+        //set channel to normal electrode input
+        ADS1299_write_register(ADS1299_REG_CH1SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH2SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH3SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH4SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH5SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH6SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH7SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH8SET, 0b01100000);
+                        
     
-
-   
-
     
     //initialize start pin
     gpio_init(5);
@@ -297,8 +327,7 @@ void ADS1299_init() {
    
 }  
 
-uint8_t data[3*ADS1299_CHANNELS + 4];
-  
+
 
 //__________________________________________________________________________
 //BESP12E
@@ -403,6 +432,7 @@ void core1_interrupt_handler(){
     if (command == CMD_CORE1_SEND_DATA){
         ESP12F_send_ADS_data(data);
     }
+    printf("%f \n", data_to_voltage(1));
     multicore_fifo_clear_irq(); //clear interrupt
 }
 // multi core code
@@ -428,7 +458,7 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
     
     //first DRDY drop indicates that adc is settling. The second drop indicates that data is ready.
     if(!first_drdy_fall_detected){
-        printf("first drdy\n");
+        
         first_drdy_fall_detected = true;
         return;
     }
@@ -438,9 +468,8 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
     ADS1299_read_data(data);
     //set final byte to state of charge
     data[3*ADS1299_CHANNELS + 3] = MAX17048_read_charge();
-    for (int i = 0; i < 3*ADS1299_CHANNELS + 3; i++)
-        printf("%d\n", data[i]);
-
+    //printf("next data\n");
+    
     if(send_to_esp12f){
         multicore_fifo_push_blocking(CMD_CORE1_SEND_DATA);
     }
@@ -451,26 +480,28 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
 
 
 
+
 float soc; 
 float voltage; 
 int main() {
-    printf("hellow world\n");
+   
     stdio_init_all();
-
+    
     multicore_launch_core1(core1_main);
 
     ADS1299_init();
     MAX17048_init();
     ESP12F_init();
     
+   
     gpio_set_irq_enabled_with_callback(ADS1299_GPIO_DRDY,  GPIO_IRQ_EDGE_FALL, true, &ADS1299_drdy_interrupt);
   
     ADS1299_start_continuous_data();
-
+    ADS1299_cs_select();
     while (true) {
         voltage = MAX17048_read_voltage();
         soc = MAX17048_read_charge();
-        printf("Whilte Loop Running %f\n", voltage);
+        //printf("%d \n", ADS1299_read_register(ADS1299_REG_CONFIG1));
         //printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
         sleep_ms(1000);
         
