@@ -429,6 +429,7 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
     //first DRDY drop indicates that adc is settling. The second drop indicates that data is ready.
     if(!first_drdy_fall_detected){
         printf("first drdy\n");
+        first_drdy_fall_detected = true;
         return;
     }
         
@@ -437,7 +438,8 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
     ADS1299_read_data(data);
     //set final byte to state of charge
     data[3*ADS1299_CHANNELS + 3] = MAX17048_read_charge();
-    printf("next drdy drdy\n");
+    for (int i = 0; i < 3*ADS1299_CHANNELS + 3; i++)
+        printf("%d\n", data[i]);
 
     if(send_to_esp12f){
         multicore_fifo_push_blocking(CMD_CORE1_SEND_DATA);
@@ -446,6 +448,8 @@ void ADS1299_drdy_interrupt(uint gpio, uint32_t event_mask){
         //SDCARD_write_data();
     }
 }
+
+
 
 float soc; 
 float voltage; 
