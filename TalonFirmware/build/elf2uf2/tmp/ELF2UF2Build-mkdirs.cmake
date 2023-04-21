@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/tools/elf2uf2"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/tmp"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src"
-  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/home/raahi/pico-sdk/tools/elf2uf2"
+  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2"
+  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2"
+  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2/tmp"
+  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src"
+  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

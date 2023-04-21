@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2040
+# Install script for directory: /home/raahi/pico-sdk/src/rp2040
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TalonFirmware")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "/sbin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 
