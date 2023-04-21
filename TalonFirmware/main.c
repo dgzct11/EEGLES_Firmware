@@ -158,7 +158,7 @@ ADS1299
 #define ADS1299_CMD_RDATA      0x12
 
 #define ADS1299_VREF 4.5
-#define ADS1299_GAIN 24
+#define ADS1299_GAIN 1
 
 #define READ_BIT 0x20
 #define WRITE_BIT 0x40
@@ -172,7 +172,8 @@ float data_to_voltage( uint8_t channel){
     }
     else {
         raw = 0x1000000 - raw;
-        return -((float)raw) * ADS1299_VREF/ADS1299_GAIN/0x800000;
+        return (float) raw;
+        //return -((float)raw) * ((float)ADS1299_VREF/ADS1299_GAIN)/0x800000;
     }
    
 }  
@@ -291,32 +292,34 @@ void ADS1299_init() {
     //send SDATAC command to write the registers
     ADS1299_cs_select();
     ADS1299_send_command(ADS1299_CMD_SDATAC);
-    ADS1299_write_register(ADS1299_REG_CONFIG3, 0b11101000);
-    sleep_ms(400);
+    ADS1299_write_register(ADS1299_REG_CONFIG3, 0b11100000);
+    sleep_ms(1000);
 
     //write configuration registers
 
         //enable CLK output and Set output data rate to 250SPS
-        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10110110);
+        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10010100);
+
+        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010011);
+
 
         //Bias Settings
-        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b01101000);
+        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b11111001);
         
         //close SRB1 swithces
         ADS1299_write_register(ADS1299_REG_MISC1, 0b00100000);
 
         //close BIASP switches
-        ADS1299_write_register(ADS1299_REG_BIAS_SENSP, 0b11111111);
+        //ADS1299_write_register(ADS1299_REG_BIAS_SENSP, 0b11111111);
 
         //set channel to normal electrode input
-        ADS1299_write_register(ADS1299_REG_CH1SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH2SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH3SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH4SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH5SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH6SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH7SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH8SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH1SET, 0b00000101);
+        ADS1299_write_register(ADS1299_REG_CH2SET, 0b00000101);
+        ADS1299_write_register(ADS1299_REG_CH3SET, 0b00000101);
+        ADS1299_write_register(ADS1299_REG_CH4SET, 0b00000101);
+        ADS1299_write_register(ADS1299_REG_CH5SET, 0b00000101);
+        ADS1299_write_register(ADS1299_REG_CH6SET, 0b00000010);
+       
                         
     
     
@@ -432,7 +435,16 @@ void core1_interrupt_handler(){
     if (command == CMD_CORE1_SEND_DATA){
         ESP12F_send_ADS_data(data);
     }
-    printf("%f \n", data_to_voltage(1));
+    printf("%d ", data[0]);
+    printf("%d ", data[1]);
+    printf("%d | ", data[2]);
+    printf("%d ", data[3]);
+    printf("%d ", data[4]);
+    printf("%d | ", data[5]);
+    printf("%d ", data[18]);
+    printf("%d ", data[19]);
+    printf("%d\n", data[20]);
+    printf("%f\n", data_to_voltage(6));
     multicore_fifo_clear_irq(); //clear interrupt
 }
 // multi core code
