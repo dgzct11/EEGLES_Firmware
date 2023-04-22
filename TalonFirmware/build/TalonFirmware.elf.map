@@ -103,7 +103,7 @@ Discarded input sections
  .text.data_to_voltage
                 0x00000000       0x5c CMakeFiles/TalonFirmware.dir/main.c.obj
  .text.send_data
-                0x00000000       0x1c CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x00000000       0x7c CMakeFiles/TalonFirmware.dir/main.c.obj
  .text.ADS1299_init_spi
                 0x00000000       0x50 CMakeFiles/TalonFirmware.dir/main.c.obj
  .text.ADS1299_send_command
@@ -528,34 +528,14 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_buffer
                 0x00000000        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_null
-                0x00000000        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_rev
-                0x00000000       0x90 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ntoa_format
-                0x00000000      0x208 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._out_fct
-                0x00000000       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x00000000      0x464 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata._ftoa.str1.4
-                0x00000000       0x15 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x00000000      0x3c4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._vsnprintf
-                0x00000000      0xc18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata._vsnprintf
-                0x00000000      0x19c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
                 0x00000000       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_snprintf
                 0x00000000       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_vsnprintf
                 0x00000000       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text.vfctprintf
-                0x00000000       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_printf
                 0x00000000       0x40 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .rodata.pow10.0
-                0x00000000       0x50 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.clzsi    0x00000000        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -576,10 +556,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .text.__wrap___aeabi_idiv
-                0x00000000       0x50 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .text.__wrap___aeabi_ldiv
-                0x00000000      0x424 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_s64s64_rem
                 0x00000000        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
  .text.divmod_u64u64_rem
@@ -591,31 +567,13 @@ Discarded input sections
                 0x00000000        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.pop_r8_r11
                 0x00000000        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_darithmetic
-                0x00000000       0x80 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_cdcmple
-                0x00000000       0x6c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_dcmpeq
                 0x00000000       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmplt
-                0x00000000        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_dcmple
                 0x00000000       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpge
-                0x00000000       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpgt
-                0x00000000        0xa CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_dcmpun
-                0x00000000       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap___aeabi_ui2d
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_i2d
-                0x00000000       0x38 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2iz
-                0x00000000       0x48 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2int
-                0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2uiz
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.fix2double
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -640,8 +598,6 @@ Discarded input sections
  .text.double2fix
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.double2ufix
-                0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .text.__wrap___aeabi_d2f
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .text.__wrap_srqt
                 0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -739,14 +695,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.__wrap___aeabi_dsub
-                0x00000000       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dadd_shim
-                0x00000000      0x15c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dmul_shim
-                0x00000000      0x15c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.ddiv_shim
-                0x00000000      0x1b0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dsqrt_shim
                 0x00000000      0x1a8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dcordic_vec_step
@@ -755,18 +703,10 @@ Discarded input sections
                 0x00000000       0x76 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int_shim
                 0x00000000        0xe CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2uint_shim
-                0x00000000        0xe CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.double2int64_shim
                 0x00000000       0x1a CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2uint64_shim
-                0x00000000       0x70 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.double2float_shim
-                0x00000000       0x5c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.x2double_shims
                 0x00000000       0x90 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .text.dunpacks
-                0x00000000       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dreduce  0x00000000       0x82 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
  .text.dtan_shim
                 0x00000000       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -829,8 +769,6 @@ Discarded input sections
  .text.__wrap___aeabi_f2ulz
                 0x00000000       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.float2ufix64
-                0x00000000       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .text.__wrap___aeabi_f2d
                 0x00000000       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  .text.__wrap_sqrtf
                 0x00000000       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -937,8 +875,6 @@ Discarded input sections
                 0x00000000       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .text.d2fix_a_float
                 0x00000000       0x5c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .text.float2double_shim
-                0x00000000       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .text          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .data          0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -979,8 +915,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_no_crlf
                 0x00000000       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.stdio_buffered_printer
-                0x00000000       0x64 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
                 0x00000000       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_end
@@ -998,10 +932,6 @@ Discarded input sections
  .text._isatty  0x00000000        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_flush
                 0x00000000       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.__wrap_vprintf
-                0x00000000       0xd4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .text.__wrap_printf
-                0x00000000       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_getchar
                 0x00000000       0x7c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.getchar_timeout_us
@@ -1324,9 +1254,9 @@ Discarded input sections
  .comment       0x00000000       0x1f CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 /tmp/cc0IFhkd.o
- .data          0x00000000        0x0 /tmp/cc0IFhkd.o
- .bss           0x00000000        0x0 /tmp/cc0IFhkd.o
+ .text          0x00000000        0x0 /tmp/ccvQdXgY.o
+ .data          0x00000000        0x0 /tmp/ccvQdXgY.o
+ .bss           0x00000000        0x0 /tmp/ccvQdXgY.o
  .data          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-atexit.o)
@@ -1910,11 +1840,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/cc0IFhkd.o
+ .boot2         0x10000000      0x100 /tmp/ccvQdXgY.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x5b60
+.text           0x10000100     0x8068
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1983,584 +1913,701 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x10000314       0x20 CMakeFiles/TalonFirmware.dir/main.c.obj
                 0x10000314                core1_main
  .text.core1_interrupt_handler
-                0x10000334       0x3c CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x10000334       0xa0 CMakeFiles/TalonFirmware.dir/main.c.obj
                 0x10000334                core1_interrupt_handler
  .text.ADS1299_drdy_interrupt
-                0x10000370       0x8c CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x10000370                ADS1299_drdy_interrupt
+                0x100003d4       0x8c CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x100003d4                ADS1299_drdy_interrupt
  .text.MAX17048_init
-                0x100003fc       0x68 CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x100003fc                MAX17048_init
+                0x10000460       0x68 CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x10000460                MAX17048_init
  .text.ADS1299_init
-                0x10000464      0x19c CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x10000464                ADS1299_init
+                0x100004c8      0x1ac CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x100004c8                ADS1299_init
  .text.ESP12F_init_uart
-                0x10000600       0x24 CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x10000600                ESP12F_init_uart
+                0x10000674       0x24 CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x10000674                ESP12F_init_uart
  .text.ESP12F_init_spi
-                0x10000624       0x58 CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x10000624                ESP12F_init_spi
+                0x10000698       0x58 CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x10000698                ESP12F_init_spi
  .text.startup.main
-                0x1000067c      0x10c CMakeFiles/TalonFirmware.dir/main.c.obj
-                0x1000067c                main
+                0x100006f0      0x10c CMakeFiles/TalonFirmware.dir/main.c.obj
+                0x100006f0                main
  .text.gpio_default_irq_handler
-                0x10000788      0x220 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100007fc      0x220 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_function
-                0x100009a8       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100009a8                gpio_set_function
+                0x10000a1c       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a1c                gpio_set_function
  .text.gpio_set_pulls
-                0x100009d8       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100009d8                gpio_set_pulls
+                0x10000a4c       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a4c                gpio_set_pulls
  .text.gpio_set_irq_enabled
-                0x100009fc       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100009fc                gpio_set_irq_enabled
+                0x10000a70       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000a70                gpio_set_irq_enabled
  .text.gpio_set_irq_enabled_with_callback
-                0x10000a50       0xc4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000a50                gpio_set_irq_enabled_with_callback
+                0x10000ac4       0xc4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000ac4                gpio_set_irq_enabled_with_callback
  .text.gpio_init
-                0x10000b14       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000b14                gpio_init
+                0x10000b88       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000b88                gpio_init
  .text.running_on_fpga
-                0x10000b50       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000b50                running_on_fpga
+                0x10000bc4       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x10000bc4                running_on_fpga
  .text.hw_claim_or_assert
-                0x10000b60       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000b60                hw_claim_or_assert
+                0x10000bd4       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000bd4                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10000ba4       0x9c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000ba4                hw_claim_unused_from_range
+                0x10000c18       0x9c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000c18                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x10000c40       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000c40                spin_locks_reset
+                0x10000cb4       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000cb4                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000c5c       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000c5c                next_striped_spin_lock_num
+                0x10000cd0       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000cd0                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x10000c74       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000c74                spin_lock_claim_unused
+                0x10000ce8       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000ce8                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x10000c98       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000c98                irq_set_enabled
+                0x10000d0c       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d0c                irq_set_enabled
  .text.irq_is_enabled
-                0x10000cbc       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000cbc                irq_is_enabled
+                0x10000d30       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d30                irq_is_enabled
  .text.irq_set_pending
-                0x10000cd4       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000cd4                irq_set_pending
+                0x10000d48       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d48                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000ce4       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ce4                irq_has_shared_handler
+                0x10000d58       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d58                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x10000d10       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d10                irq_get_vtable_handler
+                0x10000d84       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d84                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x10000d20       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d20                irq_set_exclusive_handler
+                0x10000d94       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000d94                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000d74      0x1e0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000d74                irq_add_shared_handler
+                0x10000de8      0x1e0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000de8                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000f54      0x1c4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000f54                irq_remove_handler
+                0x10000fc8      0x1c4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000fc8                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10001118       0xb4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001118                irq_add_tail_to_free_list
+                0x1000118c       0xb4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000118c                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x100011cc       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100011cc                irq_init_priorities
+                0x10001240       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001240                irq_init_priorities
  .text.user_irq_claim_unused
-                0x100011f0       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100011f0                user_irq_claim_unused
+                0x10001264       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001264                user_irq_claim_unused
  .text.lock_init
-                0x1000121c       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x1000121c                lock_init
+                0x10001290       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x10001290                lock_init
  .text.mutex_init
-                0x1000122c       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000122c                mutex_init
+                0x100012a0       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100012a0                mutex_init
  .text.recursive_mutex_init
-                0x10001248       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10001248                recursive_mutex_init
+                0x100012bc       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100012bc                recursive_mutex_init
  .text.critical_section_init
-                0x10001264       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001264                critical_section_init
+                0x100012d8       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x100012d8                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10001280       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x10001280                critical_section_init_with_lock_num
+                0x100012f4       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x100012f4                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x10001294       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001294                timer_pool_entry_comparator
+                0x10001308       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001308                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100012c8       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000133c       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x100012f8       0xf8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000136c       0xf8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x100013f0      0x1bc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001464      0x1bc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x100015ac       0x6c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x100015ac                alarm_pool_init_default
+                0x10001620       0x6c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001620                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x10001618        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001618                alarm_pool_get_default
+                0x1000168c        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000168c                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001620      0x17c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001620                alarm_pool_add_alarm_at
+                0x10001694      0x17c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001694                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x1000179c       0x68 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000179c                alarm_pool_cancel_alarm
+                0x10001810       0x68 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001810                alarm_pool_cancel_alarm
  .text.alarm_pool_core_num
-                0x10001804        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001804                alarm_pool_core_num
+                0x10001878        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001878                alarm_pool_core_num
  .text.sleep_until
-                0x10001808       0xc4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001808                sleep_until
+                0x1000187c       0xc4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000187c                sleep_until
  .text.sleep_us
-                0x100018cc       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x100018cc                sleep_us
+                0x10001940       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001940                sleep_us
  .text.sleep_ms
-                0x100018f4       0x38 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x100018f4                sleep_ms
+                0x10001968       0x38 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001968                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x1000192c       0x60 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
-                0x1000192c                best_effort_wfe_or_timeout
+                0x100019a0       0x60 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_time/time.c.obj
+                0x100019a0                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x1000198c       0xbc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001a00       0xbc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x10001a48       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a48                hardware_alarm_claim
+                0x10001abc       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001abc                hardware_alarm_claim
  .text.time_us_64
-                0x10001a60       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a60                time_us_64
+                0x10001ad4       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001ad4                time_us_64
  .text.busy_wait_until
-                0x10001a74       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a74                busy_wait_until
+                0x10001ae8       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001ae8                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001a94       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001a94                hardware_alarm_set_callback
+                0x10001b08       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001b08                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x10001b20       0xdc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001b20                hardware_alarm_set_target
+                0x10001b94       0xdc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001b94                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001bfc       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001bfc                hardware_alarm_cancel
+                0x10001c70       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001c70                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x10001c38       0x58 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001cac       0x58 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001c90       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001c90                ph_post_alloc_init
+                0x10001d04       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001d04                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x10001ccc       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001ccc                ph_merge_two_pass
+                0x10001d40       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001d40                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001d58      0x100 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001dcc      0x100 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001e58      0x104 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001e58                ph_remove_head
+                0x10001ecc      0x104 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ecc                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001f5c       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001f5c                ph_remove_and_free_node
+                0x10001fd0       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001fd0                ph_remove_and_free_node
  .text.uart_init
-                0x10001fd4       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001fd4                uart_init
+                0x10002048       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10002048                uart_init
  .text.clocks_init
-                0x100020b4      0x2b4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100020b4                clocks_init
+                0x10002128      0x2b4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002128                clocks_init
  .text.clock_get_hz
-                0x10002368        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002368                clock_get_hz
+                0x100023dc        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100023dc                clock_get_hz
  .text.pll_init
-                0x10002374       0xa8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002374                pll_init
+                0x100023e8       0xa8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x100023e8                pll_init
  .text.watchdog_start_tick
-                0x1000241c       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000241c                watchdog_start_tick
+                0x10002490       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002490                watchdog_start_tick
  .text.watchdog_reboot
-                0x1000242c       0x9c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x1000242c                watchdog_reboot
+                0x100024a0       0x9c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x100024a0                watchdog_reboot
  .text.xosc_init
-                0x100024c8       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100024c8                xosc_init
+                0x1000253c       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x1000253c                xosc_init
  .text.runtime_init
-                0x100024f0       0xec CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100024f0                runtime_init
- .text._exit    0x100025dc        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100025dc                _exit
- .text.exit     0x100025e0        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100025e0                exit
- .text.panic    0x100025e8       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100025e8                panic
+                0x10002564       0xec CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002564                runtime_init
+ .text._exit    0x10002650        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002650                _exit
+ .text.exit     0x10002654        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002654                exit
+ .text.panic    0x1000265c       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000265c                panic
  .text.hard_assertion_failure
-                0x10002618        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002618                hard_assertion_failure
+                0x1000268c        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000268c                hard_assertion_failure
+ .text._out_null
+                0x10002698        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_rev
+                0x1000269c       0x90 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ntoa_format
+                0x1000272c      0x208 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002624       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002934       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._out_fct
+                0x10002944       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10002954      0x464 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002db8      0x3c4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._vsnprintf
+                0x1000317c      0xc18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text.vfctprintf
+                0x10003d94       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003d94                vfctprintf
  .text.weak_raw_vprintf
-                0x10002634       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10002634                weak_raw_vprintf
- .text          0x10002664       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003db4       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003db4                weak_raw_vprintf
+ .text          0x10003de4       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10002674       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10002674                rom_func_lookup
+                0x10003df4       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003df4                rom_func_lookup
  .text.rom_data_lookup
-                0x10002684       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10002684                rom_data_lookup
+                0x10003e04       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003e04                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10002694       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10002694                rom_funcs_lookup
+                0x10003e14       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003e14                rom_funcs_lookup
+ .text.__wrap___aeabi_idiv
+                0x10003e58       0x50 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003e58                __wrap___aeabi_idivmod
+                0x10003e58                divmod_s32s32
+                0x10003e58                div_s32s32
+                0x10003e58                __wrap___aeabi_idiv
+                0x10003e60                divmod_s32s32_unsafe
+                0x10003e8c                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100026d8       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100026d8                __wrap___aeabi_uidiv
-                0x100026d8                __wrap___aeabi_uidivmod
-                0x100026d8                div_u32u32
-                0x100026d8                divmod_u32u32
-                0x100026e0                divmod_u32u32_unsafe
-                0x10002708                divmod_u32u32_savestate
+                0x10003ea8       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003ea8                __wrap___aeabi_uidiv
+                0x10003ea8                __wrap___aeabi_uidivmod
+                0x10003ea8                div_u32u32
+                0x10003ea8                divmod_u32u32
+                0x10003eb0                divmod_u32u32_unsafe
+                0x10003ed8                divmod_u32u32_savestate
+ .text.__wrap___aeabi_ldiv
+                0x10003ef4      0x424 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003ef4                div_s64s64
+                0x10003ef4                divmod_s64s64
+                0x10003ef4                __wrap___aeabi_ldivmod
+                0x10003f24                div_u64u64
+                0x10003f24                divmod_u64u64
+                0x10003f24                __wrap___aeabi_uldivmod
+                0x10003f34                divmod_u64u64_savestate
+                0x10003f54                divmod_s64s64_unsafe
+                0x10003fdc                divmod_u64u64_unsafe
+ .text.__wrap___aeabi_darithmetic
+                0x10004318       0x80 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004318                __wrap___aeabi_drsub
+                0x1000431e                __wrap___aeabi_dsub
+                0x10004330                __wrap___aeabi_dadd
+                0x10004342                __wrap___aeabi_ddiv
+                0x1000437e                __wrap___aeabi_dmul
+ .text.__wrap___aeabi_cdcmple
+                0x10004398       0x6c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004398                __wrap___aeabi_cdrcmple
+                0x100043a8                __wrap___aeabi_cdcmple
+                0x100043a8                __wrap___aeabi_cdcmpeq
+ .text.__wrap___aeabi_dcmplt
+                0x10004404        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004404                __wrap___aeabi_dcmplt
+ .text.__wrap___aeabi_dcmpge
+                0x10004410       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004410                __wrap___aeabi_dcmpge
+ .text.__wrap___aeabi_dcmpgt
+                0x10004420        0xa CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004420                __wrap___aeabi_dcmpgt
+ .text.__wrap___aeabi_dcmpun
+                0x1000442a       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x1000442a                __wrap___aeabi_dcmpun
+ *fill*         0x10004446        0x2 
+ .text.__wrap___aeabi_i2d
+                0x10004448       0x38 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004448                __wrap___aeabi_ui2d
+                0x10004450                __wrap___aeabi_i2d
+ .text.__wrap___aeabi_d2iz
+                0x10004480       0x48 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10004480                __wrap___aeabi_d2iz
+                0x10004480                double2int_z
+ .text.__wrap___aeabi_d2uiz
+                0x100044c8       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100044c8                double2uint
+                0x100044c8                __wrap___aeabi_d2uiz
+ .text.__wrap___aeabi_d2f
+                0x100044e0       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100044e0                __wrap___aeabi_d2f
  .text.__aeabi_double_init
-                0x10002724       0x98 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10002724                __aeabi_double_init
+                0x100044f8       0x98 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100044f8                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100027bc       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100027bc                double_table_shim_on_use_helper
+                0x10004590       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004590                double_table_shim_on_use_helper
+ .text.__wrap___aeabi_dsub
+                0x100045bc       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100045bc                drsub_shim
+                0x100045c2                dsub_shim
+ .text.dadd_shim
+                0x100045cc      0x15c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100045cc                dadd_shim
+ .text.dmul_shim
+                0x10004728      0x15c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004728                dmul_shim
+ .text.ddiv_shim
+                0x10004884      0x1b0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004884                ddiv_shim
+ .text.double2uint_shim
+                0x10004a34        0xe CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004a34                double2uint_shim
+                0x10004a36                double2ufix_shim
+ *fill*         0x10004a42        0x2 
+ .text.double2uint64_shim
+                0x10004a44       0x70 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004a44                double2uint64_shim
+                0x10004a46                double2ufix64_shim
+                0x10004a66                d2fix_a
+ .text.double2float_shim
+                0x10004ab4       0x5c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004ab4                double2float_shim
+ .text.dunpacks
+                0x10004b10       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004b10                dunpacks
  .text.__aeabi_lmul
-                0x100027e8       0x32 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100027e8                __wrap___aeabi_lmul
- *fill*         0x1000281a        0x2 
+                0x10004b4c       0x32 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10004b4c                __wrap___aeabi_lmul
+ *fill*         0x10004b7e        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x1000281c       0x48 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x1000281c                __wrap___aeabi_frsub
-                0x10002822                __wrap___aeabi_fsub
-                0x10002828                __wrap___aeabi_fadd
-                0x1000282e                __wrap___aeabi_fdiv
-                0x10002856                __wrap___aeabi_fmul
+                0x10004b80       0x48 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004b80                __wrap___aeabi_frsub
+                0x10004b86                __wrap___aeabi_fsub
+                0x10004b8c                __wrap___aeabi_fadd
+                0x10004b92                __wrap___aeabi_fdiv
+                0x10004bba                __wrap___aeabi_fmul
  .text.__wrap___aeabi_ui2f
-                0x10002864        0xa CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10002864                __wrap___aeabi_ui2f
- *fill*         0x1000286e        0x2 
+                0x10004bc8        0xa CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004bc8                __wrap___aeabi_ui2f
+ *fill*         0x10004bd2        0x2 
  .text.__wrap___aeabi_i2f
-                0x10002870       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x10002870                __wrap___aeabi_i2f
+                0x10004bd4       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004bd4                __wrap___aeabi_i2f
  .text.__wrap___aeabi_f2uiz
-                0x100028b4        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-                0x100028b4                __wrap___aeabi_f2uiz
+                0x10004c18        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004c18                __wrap___aeabi_f2uiz
+ .text.__wrap___aeabi_f2d
+                0x10004c24       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x10004c24                __wrap___aeabi_f2d
  .text.__aeabi_float_init
-                0x100028c0       0x64 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x100028c0                __aeabi_float_init
+                0x10004c38       0x64 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10004c38                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x10002924       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x10002924                float_table_shim_on_use_helper
- .text          0x10002950       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002950                __aeabi_mem_init
- .text.memset   0x10002960        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002960                __wrap_memset
- .text.memcpy   0x1000296c        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000296c                __wrap___aeabi_memcpy
-                0x1000296c                __wrap_memcpy
+                0x10004c9c       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004c9c                float_table_shim_on_use_helper
+ .text.float2double_shim
+                0x10004cc8       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x10004cc8                float2double_shim
+ .text          0x10004cf8       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004cf8                __aeabi_mem_init
+ .text.memset   0x10004d08        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004d08                __wrap_memset
+ .text.memcpy   0x10004d14        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004d14                __wrap___aeabi_memcpy
+                0x10004d14                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10002978       0x94 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004d20       0x94 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .text.stdio_buffered_printer
+                0x10004db4       0x64 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10002a0c       0x98 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002a0c                __wrap_putchar
+                0x10004e18       0x98 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004e18                __wrap_putchar
  .text.__wrap_puts
-                0x10002aa4       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002aa4                __wrap_puts
+                0x10004eb0       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004eb0                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10002b84       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002b84                stdio_set_driver_enabled
+                0x10004f90       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004f90                stdio_set_driver_enabled
+ .text.__wrap_vprintf
+                0x10004fc0       0xd4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004fc0                __wrap_vprintf
+ .text.__wrap_printf
+                0x10005094       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005094                __wrap_printf
  .text.stdio_init_all
-                0x10002bb4        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002bb4                stdio_init_all
+                0x100050ac        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100050ac                stdio_init_all
  .text.resetd_init
-                0x10002bbc        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100050b4        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x10002bc0        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100050b8        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x10002bcc       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100050c4       0x28 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10002bf4        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100050ec        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10002bf8       0x60 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100050f0       0x60 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x10002c58        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10002c58                usbd_app_driver_get_cb
+                0x10005150        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005150                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x10002c64       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10002c64                tud_cdc_line_coding_cb
+                0x1000515c       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000515c                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x10002c98       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002c98                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x10002cac       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005190       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005190                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x100051a4       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10002cbc       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100051b4       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x10002d10       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002d10                stdio_usb_in_chars
+                0x10005208       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005208                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x10002d9c       0xf8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005294       0xf8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10002e94       0xa4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000538c       0xa4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x10002f38       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002f38                tud_cdc_rx_cb
+                0x10005430       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005430                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x10002f58       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002f58                stdio_usb_init
+                0x10005450       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005450                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10003038        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003038                tud_descriptor_device_cb
+                0x10005530        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005530                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10003040        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003040                tud_descriptor_configuration_cb
+                0x10005538        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005538                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10003048       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10003048                tud_descriptor_string_cb
+                0x10005540       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005540                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x100030c0       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x100055b8       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x100030d0      0x1a8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x100030d0                pico_get_unique_board_id_string
+                0x100055c8      0x1a8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x100055c8                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10003278       0x40 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x10003278                flash_get_unique_id
+                0x10005770       0x40 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x10005770                flash_get_unique_id
  .text.dcd_rp2040_irq
-                0x100032b8      0x1d0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100057b0      0x1d0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x10003488        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003488                dcd_int_enable
+                0x10005980        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005980                dcd_int_enable
  .text.dcd_set_address
-                0x10003494       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003494                dcd_set_address
+                0x1000598c       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000598c                dcd_set_address
  .text.dcd_connect
-                0x100034a8       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100034a8                dcd_connect
+                0x100059a0       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100059a0                dcd_connect
  .text.dcd_init
-                0x100034b8       0xf0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100034b8                dcd_init
+                0x100059b0       0xf0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100059b0                dcd_init
  .text.dcd_edpt0_status_complete
-                0x100035a8       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100035a8                dcd_edpt0_status_complete
+                0x10005aa0       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005aa0                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x100035c4       0xf0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100035c4                dcd_edpt_open
+                0x10005abc       0xf0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005abc                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x100036b4       0x68 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100036b4                dcd_edpt_close_all
+                0x10005bac       0x68 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005bac                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x1000371c       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000371c                dcd_edpt_xfer
+                0x10005c14       0x24 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005c14                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10003740       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003740                dcd_edpt_stall
+                0x10005c38       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005c38                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x10003774       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003774                dcd_edpt_clear_stall
+                0x10005c6c       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005c6c                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0.isra.0
-                0x100037a4       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005c9c       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x100037c0       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x100037c0                rp2040_usb_init
+                0x10005cb8       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005cb8                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x1000380c        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000380c                hw_endpoint_reset_transfer
+                0x10005d04        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005d04                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x10003818       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10003818                _hw_endpoint_buffer_control_update32
+                0x10005d10       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005d10                _hw_endpoint_buffer_control_update32
  .text.hw_endpoint_xfer_start
-                0x1000385c      0x138 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000385c                hw_endpoint_xfer_start
+                0x10005d54      0x138 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005d54                hw_endpoint_xfer_start
  .text.hw_endpoint_xfer_continue
-                0x10003994      0x1d8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x10003994                hw_endpoint_xfer_continue
+                0x10005e8c      0x1d8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x10005e8c                hw_endpoint_xfer_continue
  .text.tud_mounted
-                0x10003b6c       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b6c                tud_mounted
+                0x10006064       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006064                tud_mounted
  .text.tud_suspended
-                0x10003b7c       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b7c                tud_suspended
+                0x10006074       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006074                tud_suspended
  .text.tud_inited
-                0x10003b8c        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b8c                tud_inited
+                0x10006084        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006084                tud_inited
  .text.tud_init
-                0x10003b98       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b98                tud_init
+                0x10006090       0xe0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006090                tud_init
  .text.tud_task
-                0x10003c78      0x8f0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10003c78                tud_task
+                0x10006170      0x8f0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006170                tud_task
  .text.dcd_event_bus_signal
-                0x10004568      0x124 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10004568                dcd_event_bus_signal
+                0x10006a60      0x124 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006a60                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x1000468c       0x58 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000468c                dcd_event_bus_reset
+                0x10006b84       0x58 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006b84                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x100046e4       0x50 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100046e4                dcd_event_setup_received
+                0x10006bdc       0x50 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006bdc                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x10004734       0x68 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10004734                dcd_event_xfer_complete
+                0x10006c2c       0x68 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006c2c                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x1000479c       0x94 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000479c                usbd_open_edpt_pair
+                0x10006c94       0x94 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006c94                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x10004830       0x48 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10004830                usbd_defer_func
+                0x10006d28       0x48 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006d28                usbd_defer_func
  .text.usbd_edpt_open
-                0x10004878       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10004878                usbd_edpt_open
+                0x10006d70       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006d70                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x100048a8       0x64 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x100048a8                usbd_edpt_claim
+                0x10006da0       0x64 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006da0                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x1000490c       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x1000490c                usbd_edpt_release
+                0x10006e04       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006e04                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x10004958       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10004958                usbd_edpt_xfer
+                0x10006e50       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10006e50                usbd_edpt_xfer
  .text.tud_control_status
-                0x1000499c       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x1000499c                tud_control_status
+                0x10006e94       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006e94                tud_control_status
  .text.tud_control_xfer
-                0x100049c8       0xac CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x100049c8                tud_control_xfer
+                0x10006ec0       0xac CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006ec0                tud_control_xfer
  .text.usbd_control_reset
-                0x10004a74       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004a74                usbd_control_reset
+                0x10006f6c       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006f6c                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10004a88        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004a88                usbd_control_set_complete_callback
+                0x10006f80        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006f80                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x10004a94       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004a94                usbd_control_set_request
+                0x10006f8c       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006f8c                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10004ab0       0xf4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10004ab0                usbd_control_xfer_cb
+                0x10006fa8       0xf4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10006fa8                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x10004ba4       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004ba4                tud_cdc_n_connected
+                0x1000709c       0x30 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x1000709c                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10004bd4       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004bd4                tud_cdc_n_available
+                0x100070cc       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100070cc                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10004bec       0x70 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004bec                tud_cdc_n_read
+                0x100070e4       0x70 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100070e4                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x10004c5c       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004c5c                tud_cdc_n_write_flush
+                0x10007154       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007154                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10004cd4       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004cd4                tud_cdc_n_write
+                0x100071cc       0x34 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100071cc                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10004d08       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004d08                tud_cdc_n_write_available
+                0x10007200       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007200                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10004d20       0x7c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004d20                cdcd_init
+                0x10007218       0x7c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007218                cdcd_init
  .text.cdcd_reset
-                0x10004d9c       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004d9c                cdcd_reset
+                0x10007294       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007294                cdcd_reset
  .text.cdcd_open
-                0x10004dc8       0xe4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004dc8                cdcd_open
+                0x100072c0       0xe4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100072c0                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x10004eac       0xe4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004eac                cdcd_control_xfer_cb
+                0x100073a4       0xe4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100073a4                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x10004f90      0x13c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004f90                cdcd_xfer_cb
+                0x10007488      0x13c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10007488                cdcd_xfer_cb
  .text.tusb_init
-                0x100050cc        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100050cc                tusb_init
+                0x100075c4        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100075c4                tusb_init
  .text.tusb_inited
-                0x100050d8        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100050d8                tusb_inited
+                0x100075d0        0x8 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100075d0                tusb_inited
  .text.tu_edpt_validate
-                0x100050e0       0x80 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x100050e0                tu_edpt_validate
+                0x100075d8       0x80 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x100075d8                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10005160       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x10005160                tu_edpt_bind_driver
+                0x10007658       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x10007658                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x1000518c       0x74 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000518c                tu_fifo_config
+                0x10007684       0x74 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007684                tu_fifo_config
  .text.tu_fifo_count
-                0x10005200       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005200                tu_fifo_count
+                0x100076f8       0x20 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100076f8                tu_fifo_count
  .text.tu_fifo_empty
-                0x10005220       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005220                tu_fifo_empty
+                0x10007718       0x10 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007718                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10005230       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005230                tu_fifo_remaining
+                0x10007728       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007728                tu_fifo_remaining
  .text.tu_fifo_read
-                0x1000524c       0xa4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x1000524c                tu_fifo_read
+                0x10007744       0xa4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007744                tu_fifo_read
  .text.tu_fifo_read_n
-                0x100052f0      0x100 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100052f0                tu_fifo_read_n
+                0x100077e8      0x100 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100077e8                tu_fifo_read_n
  .text.tu_fifo_write
-                0x100053f0       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100053f0                tu_fifo_write
+                0x100078e8       0x78 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100078e8                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10005468       0xfc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005468                tu_fifo_write_n
+                0x10007960       0xfc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007960                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10005564       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10005564                tu_fifo_clear
+                0x10007a5c       0x4c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007a5c                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x100055b0       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100055b0                tu_fifo_set_overwritable
+                0x10007aa8       0x3c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10007aa8                tu_fifo_set_overwritable
  .text.core1_trampoline
-                0x100055ec        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007ae4        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .text.core1_wrapper
-                0x100055f0        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x100055f0                core1_wrapper
+                0x10007ae8        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007ae8                core1_wrapper
  .text.multicore_fifo_push_blocking
-                0x100055fc       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x100055fc                multicore_fifo_push_blocking
+                0x10007af4       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007af4                multicore_fifo_push_blocking
  .text.multicore_fifo_pop_blocking
-                0x10005610       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x10005610                multicore_fifo_pop_blocking
+                0x10007b08       0x1c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007b08                multicore_fifo_pop_blocking
  .text.multicore_launch_core1_raw
-                0x1000562c       0x84 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x1000562c                multicore_launch_core1_raw
+                0x10007b24       0x84 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007b24                multicore_launch_core1_raw
  .text.multicore_launch_core1
-                0x100056b0       0x58 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-                0x100056b0                multicore_launch_core1
+                0x10007ba8       0x58 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+                0x10007ba8                multicore_launch_core1
  .text.i2c_set_baudrate
-                0x10005708       0xc4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10005708                i2c_set_baudrate
+                0x10007c00       0xc4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007c00                i2c_set_baudrate
  .text.i2c_init
-                0x100057cc       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100057cc                i2c_init
+                0x10007cc4       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007cc4                i2c_init
  .text.i2c_write_blocking
-                0x10005820       0xd0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x10005820                i2c_write_blocking
+                0x10007d18       0xd0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007d18                i2c_write_blocking
  .text.i2c_read_blocking
-                0x100058f0       0x90 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x100058f0                i2c_read_blocking
+                0x10007de8       0x90 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10007de8                i2c_read_blocking
  .text.spi_init
-                0x10005980       0xf0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x10005980                spi_init
- .text.atexit   0x10005a70       0x10 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-atexit.o)
-                0x10005a70                atexit
+                0x10007e78       0xf0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x10007e78                spi_init
+ .text.atexit   0x10007f68       0x10 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-atexit.o)
+                0x10007f68                atexit
  .text.__libc_fini_array
-                0x10005a80       0x28 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-fini.o)
-                0x10005a80                __libc_fini_array
+                0x10007f78       0x28 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-fini.o)
+                0x10007f78                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x10005aa8        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
-                0x10005aa8                __retarget_lock_acquire_recursive
+                0x10007fa0        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
+                0x10007fa0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x10005aac        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
-                0x10005aac                __retarget_lock_release_recursive
- .text.strlen   0x10005ab0       0x5c /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
-                0x10005ab0                strlen
+                0x10007fa4        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-lock.o)
+                0x10007fa4                __retarget_lock_release_recursive
+ .text.strlen   0x10007fa8       0x5c /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
+                0x10007fa8                strlen
  .text.__register_exitproc
-                0x10005b0c       0xa8 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-__atexit.o)
-                0x10005b0c                __register_exitproc
+                0x10008004       0xa8 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-__atexit.o)
+                0x10008004                __register_exitproc
  .text.startup.register_fini
-                0x10005bb4       0x18 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-__call_atexit.o)
+                0x100080ac       0x18 /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-__call_atexit.o)
  *(.fini)
- .fini          0x10005bcc        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crti.o
-                0x10005bcc                _fini
- .fini.__stub   0x10005bd0       0x90 linker stubs
+ .fini          0x100080c4        0x4 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crti.o
+                0x100080c4                _fini
+ .fini.__stub   0x100080c8       0xa0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2572,131 +2619,140 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10005c60        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
-                0x10005c60                        . = ALIGN (0x4)
+ .eh_frame      0x10008168        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
+                0x10008168                        . = ALIGN (0x4)
 
-.glue_7         0x10005c60        0x0
- .glue_7        0x10005c60        0x0 linker stubs
+.glue_7         0x10008168        0x0
+ .glue_7        0x10008168        0x0 linker stubs
 
-.glue_7t        0x10005c60        0x0
- .glue_7t       0x10005c60        0x0 linker stubs
+.glue_7t        0x10008168        0x0
+ .glue_7t       0x10008168        0x0 linker stubs
 
-.vfp11_veneer   0x10005c60        0x0
- .vfp11_veneer  0x10005c60        0x0 linker stubs
+.vfp11_veneer   0x10008168        0x0
+ .vfp11_veneer  0x10008168        0x0 linker stubs
 
-.v4_bx          0x10005c60        0x0
- .v4_bx         0x10005c60        0x0 linker stubs
+.v4_bx          0x10008168        0x0
+ .v4_bx         0x10008168        0x0 linker stubs
 
-.iplt           0x10005c60        0x0
- .iplt          0x10005c60        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10008168        0x0
+ .iplt          0x10008168        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10005c60      0x2e4
+.rodata         0x10008168      0x4ec
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.MAX17048_alert_handler.str1.4
-                0x10005c60        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
- *fill*         0x10005c62        0x2 
+                0x10008168        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x1000816a        0x2 
+ .rodata.core1_interrupt_handler.str1.4
+                0x1000816c        0x4 CMakeFiles/TalonFirmware.dir/main.c.obj
  .rodata.ADS1299_drdy_interrupt.str1.4
-                0x10005c64        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
- *fill*         0x10005c66        0x2 
+                0x10008170        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x10008172        0x2 
  .rodata.MAX17048_read_voltage.str1.4
-                0x10005c68        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
- *fill*         0x10005c6a        0x2 
+                0x10008174        0x2 CMakeFiles/TalonFirmware.dir/main.c.obj
+ *fill*         0x10008176        0x2 
  .rodata.spin_lock_claim_unused.str1.4
-                0x10005c6c       0x1b CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x10005c87        0x1 
+                0x10008178       0x1b CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x10008193        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x10005c88       0x1b CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10005ca3        0x1 
+                0x10008194       0x1b CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100081af        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x10005ca4       0x22 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10005cc6        0x2 
+                0x100081b0       0x22 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x100081d2        0x2 
  .rodata.panic.str1.4
-                0x10005cc8       0x12 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10005cda        0x2 
+                0x100081d4       0x12 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x100081e6        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x10005cdc        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100081e8        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .rodata._ftoa.str1.4
+                0x100081f4       0x15 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10008209        0x3 
+ .rodata._vsnprintf
+                0x1000820c      0x19c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .rodata.pow10.0
+                0x100083a8       0x50 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10005ce8       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100083f8       0x44 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10005d2c        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000843c        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10005d38        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008448        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10005d44        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008454        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10005d50        0x2 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005d52        0x2 
+                0x10008460        0x2 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10008462        0x2 
  .rodata._resetd_driver
-                0x10005d54       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10008464       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x10005d6c       0x13 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10005d7f        0x1 
+                0x1000847c       0x13 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x1000848f        0x1 
  .rodata.__bi_188.0
-                0x10005d80        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008490        0xc CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10005d8c       0x2a CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10005db6        0x2 
+                0x1000849c       0x2a CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x100084c6        0x2 
  .rodata.usbd_desc_str
-                0x10005db8       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100084c8       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10005dd0       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100084e0       0x54 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10005e24       0x12 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10005e36        0x2 
+                0x10008534       0x12 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x10008546        0x2 
  .rodata.dcd_rp2040_irq.str1.4
-                0x10005e38       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008548       0x14 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.isra.0.str1.4
-                0x10005e4c       0x1f CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10005e6b        0x1 
+                0x1000855c       0x1f CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x1000857b        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x10005e6c       0x29 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10005e95        0x3 
+                0x1000857c       0x29 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x100085a5        0x3 
  .rodata.str1.4
-                0x10005e98        0x7 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10005e9f        0x1 
+                0x100085a8        0x7 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x100085af        0x1 
  .rodata.tud_task
-                0x10005ea0       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x100085b0       0x8c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x10005f2c       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x10005f44                        . = ALIGN (0x4)
+                0x1000863c       0x18 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x10008654                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10005f44                        . = ALIGN (0x4)
+                0x10008654                        . = ALIGN (0x4)
 
-.rel.dyn        0x10005f44        0x0
- .rel.iplt      0x10005f44        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x10008654        0x0
+ .rel.iplt      0x10008654        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10005f44                        __exidx_start = .
+                0x10008654                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10005f44                        __exidx_end = .
-                0x10005f44                        . = ALIGN (0x4)
-                0x10005f44                        __binary_info_start = .
+                0x10008654                        __exidx_end = .
+                0x10008654                        . = ALIGN (0x4)
+                0x10008654                        __binary_info_start = .
 
-.binary_info    0x10005f44       0x20
+.binary_info    0x10008654       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10005f44        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008654        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10005f48        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008658        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10005f4c        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000865c        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10005f50        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008660        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10005f54        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008664        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10005f58        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008668        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10005f5c        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000866c        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr188
-                0x10005f60        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10005f64                        __binary_info_end = .
-                0x10005f64                        . = ALIGN (0x4)
-                0x10005f64                        __etext = .
+                0x10008670        0x4 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008674                        __binary_info_end = .
+                0x10008674                        . = ALIGN (0x4)
+                0x10008674                        __etext = .
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2705,7 +2761,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x20000000       0xc0 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x544 load address 0x10005f64
+.data           0x200000c0      0x544 load address 0x10008674
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2829,27 +2885,27 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
                 0x20000604                        . = ALIGN (0x4)
                 0x20000604                        __data_end__ = .
 
-.igot.plt       0x20000604        0x0 load address 0x100064a8
+.igot.plt       0x20000604        0x0 load address 0x10008bb8
  .igot.plt      0x20000604        0x0 /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000604        0x0 load address 0x100064a8
+                0x20000604        0x0 load address 0x10008bb8
                 0x20000604                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x100064a8
+.scratch_x      0x20040000        0x0 load address 0x10008bb8
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x100064a8                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10008bb8                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x100064a8
+.scratch_y      0x20041000        0x0 load address 0x10008bb8
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x100064a8                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10008bb8                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000608      0xf60
                 0x20000608                        . = ALIGN (0x4)
@@ -2991,8 +3047,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x100064a8        0x0
-                0x100064a8                        __flash_binary_end = .
+.flash_end      0x10008bb8        0x0
+                0x10008bb8                        __flash_binary_end = .
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3074,7 +3130,7 @@ LOAD CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/pico_multic
 LOAD CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 LOAD CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD /tmp/cc0IFhkd.o
+LOAD /tmp/ccvQdXgY.o
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3198,7 +3254,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000852       0x2c CMakeFiles/TalonFirmware.dir/home/raahi/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x0000087e       0x22 /tmp/cc0IFhkd.o
+                0x0000087e       0x22 /tmp/ccvQdXgY.o
  .ARM.attributes
                 0x000008a0       0x1e /usr/lib/gcc/arm-none-eabi/12.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

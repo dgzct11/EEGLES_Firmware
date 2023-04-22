@@ -180,8 +180,11 @@ float data_to_voltage( uint8_t channel){
 }  
 
 void send_data() {
-    for (uint8_t i = 0; i < (ADS1299_CHANNELS*3 + 3); i++)
-        putchar((char) data[i]);
+    // for (uint8_t i = 0; i < (ADS1299_CHANNELS*3 + 3); i++)
+    //     putchar((char) data[i]);
+    for (uint8_t i = 0; i < ADS1299_CHANNELS; i++)
+        printf("%f ", data_to_voltage(i));
+    printf("\n");
 }
 
 // Define other command codes...
@@ -298,15 +301,15 @@ void ADS1299_init() {
     //send SDATAC command to write the registers
     ADS1299_cs_select();
     ADS1299_send_command(ADS1299_CMD_SDATAC);
-    ADS1299_write_register(ADS1299_REG_CONFIG3, 0b11100000);
+    ADS1299_write_register(ADS1299_REG_CONFIG3, 0b11000000);
     sleep_ms(1000);
 
     //write configuration registers
 
         //enable CLK output and Set output data rate to 250SPS
-        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10010100);
+        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10000100);
 
-        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010011);
+        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b00000000);
 
 
         //Bias Settings
