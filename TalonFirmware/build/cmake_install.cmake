@@ -1,8 +1,8 @@
-# Install script for directory: /home/raahi/Projects/EEGLES_Firmware/TalonFirmware
+# Install script for directory: C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TalonFirmware")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/sbin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/cmake_install.cmake")
+  include("C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

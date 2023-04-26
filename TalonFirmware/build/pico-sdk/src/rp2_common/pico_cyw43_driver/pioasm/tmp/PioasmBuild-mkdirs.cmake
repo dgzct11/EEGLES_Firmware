@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/raahi/pico-sdk/tools/pioasm"
-  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pioasm"
-  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
-  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
-  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
+  "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/tools/pioasm"
+  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pioasm"
+  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm"
+  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
+  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/raahi/Projects/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

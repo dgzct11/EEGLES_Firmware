@@ -1,8 +1,8 @@
-# Install script for directory: /home/raahi/pico-sdk/src/rp2_common/pico_multicore
+# Install script for directory: C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/pico_multicore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TalonFirmware")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/sbin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 

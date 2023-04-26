@@ -143,7 +143,7 @@ ADS1299
 #define ADS1299_REG_LOFF_STATN    0x13
 
 #define ADS1299_REG_MISC1         0x15
-
+#define ADS1299_REG_CONFIG4   0x17
 
 
 // Define ADS1299 command codes
@@ -184,7 +184,8 @@ void send_data() {
     //     putchar((char) data[i]);
     for (uint8_t i = 1; i <= ADS1299_CHANNELS; i++)
         printf("%f ", data_to_voltage(i));
-    printf("\n");
+    printf("%d %d %d\n", data[0], data[1], data[2]);
+    
 }
 
 // Define other command codes...
@@ -328,8 +329,13 @@ void ADS1299_init() {
         ADS1299_write_register(ADS1299_REG_CH4SET, 0b00000000);
         ADS1299_write_register(ADS1299_REG_CH5SET, 0b00000000);
         ADS1299_write_register(ADS1299_REG_CH6SET, 0b00000000);
-       
-                        
+
+
+        //lead off detection
+
+            ADS1299_write_register(ADS1299_REG_LOFF, 0x13);
+            ADS1299_write_register(ADS1299_REG_CONFIG4, 0x02 );
+            ADS1299_write_register(ADS1299_REG_LOFF_SENSP, 0xFF);
     
     
     //initialize start pin

@@ -1,2 +1,2 @@
-# Empty compiler generated dependencies file for elf2uf2.
+﻿# Empty compiler generated dependencies file for elf2uf2.
 # This may be replaced when dependencies are built.

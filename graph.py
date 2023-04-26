@@ -48,6 +48,8 @@ class Graph:
     def get_data(self):
         try:
             data = list(map(float, self.ser.readline().decode().split(' ')[:-1]))
+            print(f'{data[-3]:08b}'[4:] + f'{data[-2]:08b}'[:2])
+            data = data[:-3]
             if len(data) == self.eeg_channels:
                 self.buffer.append(data)
             if len(self.buffer) > self.sampling_rate * self.window:
