@@ -182,7 +182,7 @@ float data_to_voltage( uint8_t channel){
 void send_data() {
     // for (uint8_t i = 0; i < (ADS1299_CHANNELS*3 + 3); i++)
     //     putchar((char) data[i]);
-    for (uint8_t i = 0; i < ADS1299_CHANNELS; i++)
+    for (uint8_t i = 1; i <= ADS1299_CHANNELS; i++)
         printf("%f ", data_to_voltage(i));
     printf("\n");
 }

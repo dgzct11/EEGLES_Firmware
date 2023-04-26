@@ -2,7 +2,7 @@ import serial
 import numpy as np
 import pyqtgraph as pg
 from pyqtgraph.Qt import QtGui, QtCore
-from brainflow.data_filter import DataFilter, FilterTypes, DetrendOperations#, WindowFunctions
+from brainflow.data_filter import DataFilter, FilterTypes, DetrendOperations
 
 
 class Graph:
@@ -16,6 +16,8 @@ class Graph:
         self.app = None
         self.win = None
         self.update_speed_ms = 50
+        self.window = 2
+        self.buffer = [[0, 0, 0, 0, 0, 0] for _ in range(self.sampling_rate * self.window)]
 
     def initialize(self):
         plots = []
@@ -44,12 +46,16 @@ class Graph:
         QtGui.QApplication.instance().exec_()
 
     def get_data(self):
-        data = []
-        for i in range(self.sampling_rate * 2):
-            data.append(list(map(float, self.ser.readline().decode().split(' ')[:-1])))
-        data = np.asarray(data)
-        print(data.T)
-        return np.asarray(data).T
+        try:
+            data = list(map(float, self.ser.readline().decode().split(' ')[:-1]))
+            if len(data) == self.eeg_channels:
+                self.buffer.append(data)
+            if len(self.buffer) > self.sampling_rate * self.window:
+                self.buffer = self.buffer[(-self.sampling_rate * self.window):]
+        except ValueError:
+            pass
+
+        return np.asarray(self.buffer).T
 
     def update(self):
         data = self.get_data()
