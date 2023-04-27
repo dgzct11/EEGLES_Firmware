@@ -4,9 +4,7 @@
 #include "pico/multicore.h"
 #include "hardware/i2c.h"
 #include "hardware/spi.h"
-#include "hardware/pio.h"
-#include "hardware/uart.h"
-
+#include "hardware/pio.h" #include "hardware/uart.h"
 
 #include <stdint.h>
 
@@ -158,7 +156,7 @@ ADS1299
 #define ADS1299_CMD_RDATA      0x12
 
 #define ADS1299_VREF 4.5
-#define ADS1299_GAIN 1
+#define ADS1299_GAIN 24
 
 #define READ_BIT 0x20
 #define WRITE_BIT 0x40
@@ -308,13 +306,13 @@ void ADS1299_init() {
     //write configuration registers
 
         //enable CLK output and Set output data rate to 250SPS
-        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10000100);
+        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b11010110);
 
-        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b00000000);
+        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010011);
 
 
         //Bias Settings
-        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b11111111);
+        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b11101110);
         
         //close SRB1 swithces
         ADS1299_write_register(ADS1299_REG_MISC1, 0b00100000);
@@ -323,19 +321,20 @@ void ADS1299_init() {
         ADS1299_write_register(ADS1299_REG_BIAS_SENSP, 0b11111111);
 
         //set channel to normal electrode input
-        ADS1299_write_register(ADS1299_REG_CH1SET, 0b00000000);
-        ADS1299_write_register(ADS1299_REG_CH2SET, 0b00000000);
-        ADS1299_write_register(ADS1299_REG_CH3SET, 0b00000000);
-        ADS1299_write_register(ADS1299_REG_CH4SET, 0b00000000);
-        ADS1299_write_register(ADS1299_REG_CH5SET, 0b00000000);
-        ADS1299_write_register(ADS1299_REG_CH6SET, 0b00000000);
+        ADS1299_write_register(ADS1299_REG_CH1SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH2SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH3SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH4SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH5SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH6SET, 0b01100000);
 
 
         //lead off detection
 
-            ADS1299_write_register(ADS1299_REG_LOFF, 0x13);
+            ADS1299_write_register(ADS1299_REG_LOFF, 0b00001100);
             ADS1299_write_register(ADS1299_REG_CONFIG4, 0x02 );
             ADS1299_write_register(ADS1299_REG_LOFF_SENSP, 0xFF);
+            ADS1299_write_register(ADS1299_REG_LOFF_SENSN, 0x00);
     
     
     //initialize start pin

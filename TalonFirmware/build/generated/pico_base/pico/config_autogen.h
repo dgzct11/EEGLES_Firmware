@@ -4,8 +4,8 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/boards/include/boards/pico.h"
+#include "/home/raahi/pico-sdk/src/boards/include/boards/pico.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
 
-#include "C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "/home/raahi/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
