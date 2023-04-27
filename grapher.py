@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 WINDOW = 5 # seconds
 SAMPLING_RATE = 250 # Hz
 
-ser = serial.Serial('/dev/ttyACM0', 115200)
+ser = serial.Serial('COM4', 115200)
 
 data = []
 

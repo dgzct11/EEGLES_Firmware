@@ -9,7 +9,7 @@ class Graph:
     def __init__(self, width=800, height=600):
         self.eeg_channels = 6
         self.sampling_rate = 250
-        self.ser = serial.Serial('/dev/ttyACM0', 115200)
+        self.ser = serial.Serial('COM4', 115200)
         self.width = width
         self.height = height
         self.curves = []
