@@ -44,6 +44,7 @@ class Graph:
         timer.timeout.connect(self.update)
         timer.start(self.update_speed_ms)
         QtGui.QApplication.instance().exec_()
+        
 
     def get_data(self):
         try:
