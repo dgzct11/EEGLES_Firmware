@@ -491,7 +491,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=C:/Users/David Zaha/Desktop/2022 school year/YWISE
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 rel1/bin/arm-none-eabi-gcc.exe
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/cmsis C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/cmsis C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2040/hardware_regs C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/cmsis C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2040/hardware_regs C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common/cmsis C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/common C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/lib/cyw43-driver/src C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2_common C:/Users/David Zaha/Desktop/2022 school year/YWISE/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1
@@ -508,6 +508,8 @@ _Python3_EXECUTABLE:INTERNAL=C:/Users/David Zaha/Programming/Python/python.exe
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;7;32;;;C:\Users\David Zaha\Programming\Python\Lib;C:\Users\David Zaha\Programming\Python\Lib;C:\Users\David Zaha\Programming\Python\Lib\site-packages;C:\Users\David Zaha\Programming\Python\Lib\site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=3e082641f4e5290e0524b5ed588d5e65
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
 

@@ -24,14 +24,14 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is MSVC, found in "C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pioasm/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pioasm/CMakeFiles/CMakeScratch/TryCompile-wkeyyi
+Change Dir: C:/DavidZaha/Programming/Github/EEGLES_Firmware/TalonFirmware/build/pioasm/CMakeFiles/CMakeScratch/TryCompile-wprrpe
 
-Run Build Command(s):nmake -f Makefile /nologo cmTC_8b9d9\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_8b9d9.dir\build.make /nologo -L                  CMakeFiles\cmTC_8b9d9.dir\build
-Building CXX object CMakeFiles/cmTC_8b9d9.dir/CMakeCXXCompilerABI.cpp.obj
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_8b9d9.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\build\pioasm\CMakeFiles\CMakeScratch\TryCompile-wkeyyi --filter-prefix="Note: including file: " -- "C:\PROGRA~2\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\bin\Hostx86\x86\cl.exe" @C:\Users\DAVIDZ~1\AppData\Local\Temp\nmF7B5.tmp
+Run Build Command(s):nmake -f Makefile /nologo cmTC_b544b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_b544b.dir\build.make /nologo -L                  CMakeFiles\cmTC_b544b.dir\build
+Building CXX object CMakeFiles/cmTC_b544b.dir/CMakeCXXCompilerABI.cpp.obj
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_b544b.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\DavidZaha\Programming\Github\EEGLES_Firmware\TalonFirmware\build\pioasm\CMakeFiles\CMakeScratch\TryCompile-wprrpe --filter-prefix="Note: including file: " -- "C:\PROGRA~2\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\bin\Hostx86\x86\cl.exe" @C:\Users\DAVIDZ~1\AppData\Local\Temp\nm4B0A.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8b9d9.exe
-	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_8b9d9.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.20348.0\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.20348.0\x86\mt.exe" --manifests -- "C:\PROGRA~2\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_8b9d9.dir\objects1 @C:\Users\DAVIDZ~1\AppData\Local\Temp\nmF833.tmp
+Linking CXX executable cmTC_b544b.exe
+	"C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b544b.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.20348.0\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.20348.0\x86\mt.exe" --manifests -- "C:\PROGRA~2\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_b544b.dir\objects1 @C:\Users\DAVIDZ~1\AppData\Local\Temp\nm4B78.tmp
 
 
 
