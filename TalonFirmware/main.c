@@ -306,20 +306,20 @@ void ADS1299_init() {
     //write configuration registers
 
         //enable CLK output and Set output data rate to 250SPS
-        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b11010011);
+        ADS1299_write_register(ADS1299_REG_CONFIG1,  0b10010110);
 
         //testing settings
-        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010000);
+        ADS1299_write_register(ADS1299_REG_CONFIG2,  0b11010011);
 
 
         //Bias Settings
-        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b11101110);
+        ADS1299_write_register(ADS1299_REG_CONFIG3,  0b11111110);
         
         //close SRB1 swithces
         ADS1299_write_register(ADS1299_REG_MISC1, 0b00100000);
 
         //close BIASP switches
-        ADS1299_write_register(ADS1299_REG_BIAS_SENSP, 0b00000000);
+        ADS1299_write_register(ADS1299_REG_BIAS_SENSP, 0b00111111);
 
         //set channel to normal electrode input
         ADS1299_write_register(ADS1299_REG_CH1SET, 0b01100000);
@@ -327,13 +327,12 @@ void ADS1299_init() {
         ADS1299_write_register(ADS1299_REG_CH3SET, 0b01100000);
         ADS1299_write_register(ADS1299_REG_CH4SET, 0b01100000);
         ADS1299_write_register(ADS1299_REG_CH5SET, 0b01100000);
-        ADS1299_write_register(ADS1299_REG_CH6SET, 0b01100000);
+        ADS1299_write_register(ADS1299_REG_CH6SET, 0b01100010);
 
 
-            ADS1299_write_register(ADS1299_REG_LOFF, 0b00001100);
-            ADS1299_write_register(ADS1299_REG_CONFIG4, 0x02 );
-            ADS1299_write_register(ADS1299_REG_LOFF_SENSP, 0xFF);
-            ADS1299_write_register(ADS1299_REG_LOFF_SENSN, 0x00);
+        ADS1299_write_register(ADS1299_REG_LOFF, 0b00001100);
+        ADS1299_write_register(ADS1299_REG_CONFIG4, 0x02 );
+        ADS1299_write_register(ADS1299_REG_LOFF_SENSP, 0b00111111);
     
     
     //initialize start pin
