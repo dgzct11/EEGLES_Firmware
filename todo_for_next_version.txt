@@ -1,0 +1,3 @@
+1. fix the silk screen (AVDD vs AGND)
+2. Connection GPIO 15 of wifi chip
+3. GPIO0 is the programming pin of esp

@@ -521,7 +521,7 @@ int main() {
 
     ADS1299_init();
     MAX17048_init();
-    ESP12F_init();
+    //ESP12F_init();
     
    
     gpio_set_irq_enabled_with_callback(ADS1299_GPIO_DRDY,  GPIO_IRQ_EDGE_FALL, true, &ADS1299_drdy_interrupt);
@@ -532,8 +532,8 @@ int main() {
     while (true) {
         voltage = MAX17048_read_voltage();
         soc = MAX17048_read_charge();
-        //printf("%d \n", ADS1299_read_register(ADS1299_REG_CONFIG1));
-        //printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
+        printf("%d \n", ADS1299_read_register(ADS1299_REG_CONFIG1));
+        printf("Battery voltage: %.2fV, State of Charge: %.2f%%\n", voltage, soc);
         sleep_ms(1000);
         
     }
